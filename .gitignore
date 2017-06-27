@@ -5,3 +5,6 @@ _site
 
 # pycharm
 .idea/*
+
+# Gemfiles
+Gemfile*
