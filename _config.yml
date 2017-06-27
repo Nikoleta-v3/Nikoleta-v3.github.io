@@ -2,7 +2,7 @@ title: Nikoleta E. Glynatsi
 email: GlynatsiNE@cardiff.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
   My personal wedsite.
-baseurl: "" # the subpath of your site, e.g. /blog
+# the subpath of your site, e.g. /blog
 url: "http://Nikoleta-v3.org.uk"
 twitter_username: NikoletaGlyn
 github_username:  Nikoleta-v3

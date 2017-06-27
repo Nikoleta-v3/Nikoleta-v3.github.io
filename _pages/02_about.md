@@ -2,7 +2,6 @@
 layout: page
 title: About me
 permalink: /about-me/
-order: 3
 ---
 
 <h4 align="center">Education</h4>
