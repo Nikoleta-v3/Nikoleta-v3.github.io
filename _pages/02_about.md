@@ -81,7 +81,7 @@ Slavin, P., Standen, T., Visintini, L. and Molden, K. (2016)
 - NATCOR <a href="http://www.natcor.ac.uk/course.asp?courses_id=28">Stochastic Modeling</a> course, Lancaster University.
 - <a href="https://sites.google.com/site/cigneworkshop2017/">Summer School on Network Theory</a>, Roscoff, France.
 
-<h4 align="center">Founding</h4>
+<h4 align="center">Funding</h4>
 
 -------------
 
