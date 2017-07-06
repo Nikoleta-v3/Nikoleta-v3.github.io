@@ -1,7 +1,20 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
 @import
 	"base",
   "layout",
-  "syntax-highlighting"
+  "syntax-highlighting";
