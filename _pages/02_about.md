@@ -70,6 +70,7 @@ Slavin, P., Standen, T., Visintini, L. and Molden, K. (2016)
 - **PyCon Namibia**, Windhoek Namibia,  21-23 February, 2017.
 - **Collaborations Workshop 2017 (CW17)**, Leeds, 27-29 March, 2017.
 - **Wales Mathematics Colloquium**, Gregynog Hall, Newtown, 22-24 May, 2017.
+- **EuroScipy**, Erlangen, Germany, 28 August - 1 September, 2017.
 
 <h4 align="center">Courses Attended</h4>
 
@@ -78,8 +79,10 @@ Slavin, P., Standen, T., Visintini, L. and Molden, K. (2016)
 - <a href="https://www.coursera.org/learn/machine-learning">Machine Learning
 </a> course, Coursera.
 - MA3604 Game Theory course, Cardiff University
-- NATCOR <a href="http://www.natcor.ac.uk/course.asp?courses_id=28">Stochastic Modeling</a> course, Lancaster University.
 - <a href="https://sites.google.com/site/cigneworkshop2017/">Summer School on Network Theory</a>, Roscoff, France.
+- NATCOR <a href="http://www.natcor.ac.uk/course.asp?courses_id=28">Stochastic Modeling</a> course, Lancaster University.
+- NATCOR <a href="http://www.natcor.ac.uk/course.asp?courses_id=29">Simulation</a> course, Loughborough University.
+- NATCOR <a href="http://www.natcor.ac.uk/course.asp?courses_id=31">Combinatorial Optimisation</a> course, University of Southampton.
 
 <h4 align="center">Funding</h4>
 
