@@ -34,6 +34,7 @@ a,
 a:visited {
 	color: $link-color;
 	text-decoration: underline;
+	font-style: italic;
 	font-weight: bold;
 }
 a:hover {
@@ -62,6 +63,14 @@ time {
 .container {
 	max-width: $content-width;
 	margin: 0 auto;
+}
+
+#blogtitle {
+    font-style: normal;
+	color: $heading-font-color;
+	font-family: $heading-font;
+	text-decoration: none;
+	font-size: 1.3em;
 }
 
 /* Aside */
