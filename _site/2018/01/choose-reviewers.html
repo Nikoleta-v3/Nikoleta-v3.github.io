@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Nikoleta E. Glynatsi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/mobile.css">
+    <link rel="stylesheet" href="/assets/css/vendor/syntax.css">
+    <link rel="stylesheet" href="/assets/css/vendor/semantic.min.css"/>
+
+    <link rel="shortcut icon" type="image/png" href="/assets/img/logo.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="page-wrap">
+        <div class="header-wrapper">
+    <header>
+        <!-- logo and description -->
+        
+        <nav class="site-nav">
+            <div class="left-nav">
+                <!-- add titles to all buttons -->
+                <div class="ui secondary menu inverted">
+                    <a class="item" href="/">
+                        Home
+                    </a>
+                    <a class="item" href="/about.html">
+                        About
+                    </a>
+                    <a class="item" href="/blog.html">
+                        Blog
+                    </a>
+                    <a class="item" href="https://nikoleta-v3.github.io/talks/">
+                        Talks
+                    </a>
+                    <div class="right menu">
+                        <div id="head-search" class="ui category search item">
+                            <div class="ui transparent icon input">
+                                <input placeholder="Search..." type="text" id="search-input" onkeypress="handleKeyPress()">
+                                <i class="search link icon" onclick="handleSubmit()"></i>
+                            </div>
+                        </div>
+
+                        <a class="item" href="https://twitter.com/NikoletaGlyn">
+                            <i class="twitter link icon"></i>
+                        </a>
+                        <a class="item" href="https://github.com/Nikoleta-v3">
+                            <i class="github link icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-nav"></div>
+        </nav>
+    </header>
+</div>
+        <main>
+            <div class="post-container">
+    <center>
+        <span class="date">
+            24 Jan 2018 
+             
+        </span>
+        <h1 class="post-title">Choosing reviewers.</h1>
+    </center>
+    <div class="ui divider"></div>
+    <p>I recently came across the joy of submitting an article to a journal for publication.
+I soon came to the conclusion that the process of submission is both exciting and
+stressful. Exciting because you realise that a piece of research is finally done
+but also stressful because you have to go through a check list and make sure
+your paper fits the journal’s guidelines.</p>
+
+<p>Long story short, while doing this, one of the required fields
+of the journal was to propose three possible reviewers. As an early career
+researcher I do not exactly have a list of recommended reviewers up my sleeve.
+Thus there were only two things I could really do:</p>
+
+<ol>
+  <li>Ask my co-authors for suggestions.</li>
+  <li>Write a script.</li>
+</ol>
+
+<p>I knew that contacting my co-authors would take some time, thus option 2 was selected.
+From here onwards, I will be using the programming language Python to explain a
+series of steps that I followed in order to choose my reviewers!
+The first thing needed was a list of potential reviewers. This was easily retrieved
+from the journal’s website, so I copied it and saved it as a <code class="highlighter-rouge">txt</code> file.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'reviewers.txt'</span><span class="p">,</span> <span class="s">'r'</span><span class="p">)</span> <span class="k">as</span> <span class="n">textfile</span><span class="p">:</span>
+<span class="o">...</span>    <span class="n">names</span> <span class="o">=</span> <span class="n">textfile</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names</span> <span class="o">=</span> <span class="n">names</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
+<span class="mi">1273</span></code></pre></figure>
+
+<p>As it can be seen, the number of suggested reviewers from the journal is 1273.
+That being a very large number of people to  check manually,  I needed to reduce
+the list based on the reviewers’ area of research. My second task was to collect
+data on my reviewers in order to gain insights in their research.</p>
+
+<p>For my second task I will be using my open source project called <a href="https://github.com/ArcasProject/Arcas">Arcas</a>,
+Arcas allows me to collect articles’ meta data by specifying just a single keyword.</p>
+
+<p>Using the following few lines of code I am able to collect up to 100 articles
+that my reviewers have written and published in the journal <a href="http://www.springer.com/gb/">Springer</a>.
+Arcas allows you to ping 5 different sources but for the purpose of this work a
+single source, more specifically Springer works just fine.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">requests</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">arcas</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="p">[</span><span class="n">arcas</span><span class="o">.</span><span class="n">Springer</span><span class="p">]:</span>
+<span class="o">...</span>   <span class="k">for</span> <span class="n">author</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span>
+<span class="o">...</span>       <span class="n">api</span> <span class="o">=</span> <span class="n">p</span><span class="p">()</span>
+<span class="o">...</span>       <span class="n">switch</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="o">...</span>       <span class="n">start</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="o">...</span>       <span class="k">while</span> <span class="n">switch</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">False</span> <span class="ow">and</span> <span class="n">start</span> <span class="o">&lt;</span> <span class="mi">100</span><span class="p">:</span>
+<span class="o">...</span>           <span class="n">parameters</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">parameters_fix</span><span class="p">(</span><span class="n">author</span><span class="o">=</span><span class="n">author</span><span class="p">,</span> <span class="n">records</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="n">start</span><span class="p">)</span>
+<span class="o">...</span>           <span class="n">url</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">create_url_search</span><span class="p">(</span><span class="n">parameters</span><span class="p">)</span>
+<span class="o">...</span>           <span class="n">request</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">make_request</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+<span class="o">...</span>           <span class="n">root</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">get_root</span><span class="p">(</span><span class="n">request</span><span class="p">)</span>
+<span class="o">...</span>           <span class="n">raw_article</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">root</span><span class="p">)</span>
+<span class="o">...</span>           <span class="k">try</span><span class="p">:</span>
+<span class="o">...</span>               <span class="n">articles</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="o">...</span>               <span class="k">for</span> <span class="n">art</span> <span class="ow">in</span> <span class="n">raw_article</span><span class="p">:</span>
+<span class="o">...</span>                   <span class="n">articles</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">api</span><span class="o">.</span><span class="n">to_dataframe</span><span class="p">(</span><span class="n">art</span><span class="p">))</span>
+<span class="o">...</span>               <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">articles</span><span class="p">,</span> <span class="n">ignore_index</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="o">...</span>               <span class="n">api</span><span class="o">.</span><span class="n">export</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="s">"{}_{}.json"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">author</span><span class="p">,</span> <span class="n">start</span><span class="p">))</span>
+<span class="o">...</span>           <span class="k">except</span> <span class="nb">TypeError</span><span class="p">:</span>
+<span class="o">...</span>               <span class="n">switch</span><span class="o">=</span><span class="bp">False</span>
+<span class="o">...</span>           <span class="n">start</span> <span class="o">+=</span> <span class="mi">10</span></code></pre></figure>
+
+<p>Once the data has been collected I need to narrow down the reviewers that can
+understand the science of my work or its applications. For my third task
+I used the library <a href="https://pandas.pydata.org/">pandas</a>
+to check whether the keywords of my paper exist within any of the abstracts of
+my reviewers’ articles.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">keywords</span> <span class="o">=</span> <span class="p">[</span><span class="s">'keyword one'</span><span class="p">,</span> <span class="s">'keyword two'</span><span class="p">,</span> <span class="s">'keyword three'</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">find_reviewers</span><span class="p">(</span><span class="n">names</span><span class="p">,</span> <span class="n">keywords</span><span class="p">):</span>
+<span class="o">...</span>    <span class="n">authors_with_no_articles</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="o">...</span>    <span class="n">authors_of_interest</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="o">...</span>    <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span>
+<span class="o">...</span>        <span class="k">try</span><span class="p">:</span>
+<span class="o">...</span>            <span class="n">df</span> <span class="o">=</span> <span class="n">read_author_files</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+<span class="o">...</span>            <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
+<span class="o">...</span>            <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">keywords</span><span class="p">:</span>
+<span class="o">...</span>                <span class="n">flag</span> <span class="o">=</span> <span class="n">check_keyword_in_abstract</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">df</span><span class="p">)</span>
+<span class="o">...</span>                <span class="k">if</span> <span class="n">flag</span> <span class="o">==</span> <span class="bp">True</span><span class="p">:</span>
+<span class="o">...</span>                    <span class="n">authors_of_interest</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">name</span><span class="p">,</span> <span class="n">key</span><span class="p">))</span>
+<span class="o">...</span>        <span class="k">except</span> <span class="nb">ValueError</span><span class="p">:</span>
+<span class="o">...</span>            <span class="n">authors_with_no_articles</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+<span class="o">...</span>    <span class="k">return</span> <span class="n">authors_of_interest</span><span class="p">,</span> <span class="n">authors_with_no_articles</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">keep</span><span class="p">,</span> <span class="n">no_keep</span> <span class="o">=</span> <span class="n">find_reviewers</span><span class="p">(</span><span class="n">names</span><span class="p">,</span> <span class="n">keywords</span><span class="p">)</span></code></pre></figure>
+
+<p>Finally, I can  count the number of words each reviewer satisfied and plot a histogram!
+Thus the potential reviewers of my paper are the people who rank first on the following
+histogram.</p>
+
+<p align="center">
+ <img src="/assets/images/reviewers_hist.png" style="height: 60%; width: 80%; object-fit: contain" />
+</p>
+
+<p>A manual check of the reviewers that stand out must be done as well. I am not
+implying that one should strictly follow the histogram but it was a fast and
+fun way of reducing a list of 1273 people down to 20.</p>
+
+    <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+
+        var disqus_shortname = 'nikoletaglynatsi'; 
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+</div>
+        </main>
+    </div>
+    
+    <footer>
+    <div class="footer-wrapper">
+        <div class="ui secondary menu inverted">
+            <p class="item">Wall-E &copy; 2017</p>
+            <div class="right menu">
+                <a class="item" href="/archive.html">
+                    Latest Posts
+                </a>
+                <a class="item" href="https://twitter.com/fsf">
+                    Twitter
+                </a>
+                <a class="item" href="https://github.com/abhn">
+                    Github
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="/assets/js/main.js"></script>
+<script type="text/javascript" src="/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/vendor/semantic.min.js"></script>
+
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+    <script src="/assets/js/vendor/semantic.min.js"></script>
+    <script type="/assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Nikoleta E. Glynatsi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/mobile.css">
+    <link rel="stylesheet" href="/assets/css/vendor/syntax.css">
+    <link rel="stylesheet" href="/assets/css/vendor/semantic.min.css"/>
+
+    <link rel="shortcut icon" type="image/png" href="/assets/img/logo.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="page-wrap">
+        <div class="header-wrapper">
+    <header>
+        <!-- logo and description -->
+        
+        <nav class="site-nav">
+            <div class="left-nav">
+                <!-- add titles to all buttons -->
+                <div class="ui secondary menu inverted">
+                    <a class="item" href="/">
+                        Home
+                    </a>
+                    <a class="item" href="/about.html">
+                        About
+                    </a>
+                    <a class="item" href="/blog.html">
+                        Blog
+                    </a>
+                    <a class="item" href="https://nikoleta-v3.github.io/talks/">
+                        Talks
+                    </a>
+                    <div class="right menu">
+                        <div id="head-search" class="ui category search item">
+                            <div class="ui transparent icon input">
+                                <input placeholder="Search..." type="text" id="search-input" onkeypress="handleKeyPress()">
+                                <i class="search link icon" onclick="handleSubmit()"></i>
+                            </div>
+                        </div>
+
+                        <a class="item" href="https://twitter.com/NikoletaGlyn">
+                            <i class="twitter link icon"></i>
+                        </a>
+                        <a class="item" href="https://github.com/Nikoleta-v3">
+                            <i class="github link icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-nav"></div>
+        </nav>
+    </header>
+</div>
+        <main>
+            <div class="post-container">
+    <center>
+        <span class="date">
+            23 Aug 2017 
+             
+        </span>
+        <h1 class="post-title">Grudges, War and Game of Thrones</h1>
+    </center>
+    <div class="ui divider"></div>
+    <p align="justify">
+You will often see me talking about <a href="https://en.wikipedia.org/wiki/Game_theory">Game Theory</a>.
+But what is Game Theory and more importantly what does it allow us to 
+comprehend? 
+</p>
+
+<p align="justify">
+The right answer is many things. For example should people hold a grudge? In a 
+war of many different parties what strategy should one use to stand 
+victorious? Should the North and South join hands against the army of the dead?
+</p>
+
+<p align="justify">
+All these questions can be answered by studying the emergence of cooperation. 
+A topic that I am concerned with in my PhD study. 
+The game commonly used is the famous <a href="https://en.wikipedia.org/wiki/Prisoner%27s_dilemma">Prisoner’s 
+Dilemma (PD)</a>. The PD is a two player game where both players 
+simultaneously can choose to either <b>Cooperate</b> or <b>Defect</b>. Though 
+both sides are better off <b>Cooperating (3)</b> there will always be a 
+temptation for an individual to deviate and <b>Defect (5)</b>. The following 
+matrix matches the players moves to payoffs.
+
+<p align="center">
+  <img src="/assets/images/matrix.png" style="height: 20%; width: 40%; object-fit: contain" />
+</p>
+
+<p align="justify">
+Simulating the PD interaction is made possible thanks to an open 
+source library called the <a href="https://github.com/Axelrod-Python/Axelrod">
+Axelrod Python Library</a>. The library is alive thanks to a league of 
+extraordinary people, it is documented and tested to an extraordinarily high 
+degree of coverage. This ensures the correctness of our results.
+Now that we have the basics down let us explore some scenarios! 
+</p>
+
+<p align="justify">
+Imagine that you are repeatedly interacting with a friend who is quite 
+<code>Sneaky</code>. Your friend is cooperating with you but will also try 
+to defect once and will repent only if punished. <b> Should you hold a grudge 
+against that friend?</b> Let us create this scenario using the Axelrod 
+library. Your friend will be playing a strategy called <code>SneakyTitForTat
+</code> and  you can choose between two strategies: either hold a grudge by 
+defecting all the way once your friend defects ( <code>Grudger</code> ) or 
+after punishing your friend you can try to cooperate once again ( <code>
+TitForTat</code> ).
+</p>
+
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">axelrod</span> <span class="k">as</span> <span class="n">axl</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">first_match</span> <span class="o">=</span> <span class="n">axl</span><span class="o">.</span><span class="n">Match</span><span class="p">([</span><span class="n">axl</span><span class="o">.</span><span class="n">SneakyTitForTat</span><span class="p">(),</span> <span class="n">axl</span><span class="o">.</span><span class="n">Grudger</span><span class="p">()],</span> 
+<span class="o">...</span> 			    <span class="n">turns</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">first_match</span><span class="o">.</span><span class="n">play</span><span class="p">()[:</span><span class="mi">6</span><span class="p">]</span>
+<span class="p">[(</span><span class="s">'C'</span><span class="p">,</span> <span class="s">'C'</span><span class="p">),</span> <span class="p">(</span><span class="s">'C'</span><span class="p">,</span> <span class="s">'C'</span><span class="p">),</span> <span class="p">(</span><span class="s">'D'</span><span class="p">,</span> <span class="s">'C'</span><span class="p">),</span> <span class="p">(</span><span class="s">'D'</span><span class="p">,</span> <span class="s">'D'</span><span class="p">),</span> <span class="p">(</span><span class="s">'C'</span><span class="p">,</span> <span class="s">'D'</span><span class="p">),</span> <span class="p">(</span><span class="s">'C'</span><span class="p">,</span> <span class="s">'D'</span><span class="p">)]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">first_match</span><span class="o">.</span><span class="n">final_score</span><span class="p">()</span>
+<span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">55</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">second_match</span> <span class="o">=</span> <span class="n">axl</span><span class="o">.</span><span class="n">Match</span><span class="p">([</span><span class="n">axl</span><span class="o">.</span><span class="n">SneakyTitForTat</span><span class="p">(),</span> <span class="n">axl</span><span class="o">.</span><span class="n">TitForTat</span><span class="p">()],</span> 
+<span class="o">...</span> 			     <span class="n">turns</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">_</span> <span class="o">=</span> <span class="n">second_match</span><span class="o">.</span><span class="n">play</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">second_match</span><span class="o">.</span><span class="n">final_score</span><span class="p">()</span>
+<span class="p">(</span><span class="mi">57</span><span class="p">,</span> <span class="mi">57</span><span class="p">)</span></code></pre></figure>
+
+
+<p align="justify">
+In a simple match of the Iterated Prisoner's Dilemma the strategy <code>
+TitForTat</code> can be seen to score higher than <code>Grudger</code>. Thus,
+when playing against <code>SneakyTitForTat</code> you would be better off not holding a
+grudge. 
+</p>
+
+<p align="justify">
+Another feature of the library is simulating simplified <b>war scenarios</b>. In a 
+war several players with different strategies collide in the battlefield. One 
+can choose from over 200 strategies that are implemented within the library. 
+Once the strategies are selected they can be placed into a tournament. Each 
+player interacts with the rest of the players and the one with 
+the highest average score is the winner. In the following example, six very 
+basic strategies have been chosen and a tournament of 200 turns is repeated 5 
+times.
+</p>
+
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">axelrod</span> <span class="k">as</span> <span class="n">axl</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">axl</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">players</span> <span class="o">=</span> <span class="p">[</span><span class="n">axl</span><span class="o">.</span><span class="n">Cooperator</span><span class="p">(),</span> <span class="n">axl</span><span class="o">.</span><span class="n">Random</span><span class="p">(),</span> <span class="n">axl</span><span class="o">.</span><span class="n">TitForTat</span><span class="p">(),</span> <span class="n">axl</span><span class="o">.</span><span class="n">Grudger</span><span class="p">(),</span>
+<span class="o">...</span>            <span class="n">axl</span><span class="o">.</span><span class="n">Defector</span><span class="p">()]</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">tournament</span> <span class="o">=</span> <span class="n">axl</span><span class="o">.</span><span class="n">Tournament</span><span class="p">(</span><span class="n">players</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">results</span> <span class="o">=</span> <span class="n">tournament</span><span class="o">.</span><span class="n">play</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">results</span><span class="o">.</span><span class="n">ranked_names</span>
+<span class="p">[</span><span class="s">'Grudger'</span><span class="p">,</span> <span class="s">'Defector'</span><span class="p">,</span> <span class="s">'Tit For Tat'</span><span class="p">,</span> <span class="s">'Cooperator'</span><span class="p">,</span> <span class="s">'Random: 0.5'</span><span class="p">]</span></code></pre></figure>
+
+
+<p align="justify">
+The library comes with a results summary where several measures can be
+explored and visualised. Such as the winner and the winning score.
+</p>
+
+
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">plot</span> <span class="o">=</span> <span class="n">axl</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">p</span> <span class="o">=</span> <span class="n">plot</span><span class="o">.</span><span class="n">boxplot</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">p</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></code></pre></figure>
+
+
+<p align="center">
+  <img src="/assets/images/boxplot.png" style="height: 60%; width: 100%; object-fit: contain" />
+</p>
+
+<p align="center">
+<i>may contain spoiler for Game of Thrones season 7</i>
+</p>
+
+<p align="justify">
+Lastly regarding the recent events of <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of Thrones</a> 
+season 7, should the North alliance work with the South to defeat the Night 
+King? <a href="https://en.wikipedia.org/wiki/Evolutionary_game_theory">
+Evolutionary Game Theory</a>, allows the study of such population dynamics. In 
+this example <a href="https://en.wikipedia.org/wiki/Moran_process">the Moran
+process</a> will be used as an evolutionary algorithm. The Moran process is 
+a birth day process where the weakest member of one generation is replaced by 
+a stronger individual. How are the individuals compared? They are 
+compared based on their normalized score in a tournament against the entire 
+population. 
+</p>
+
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">axelrod</span> <span class="k">as</span> <span class="n">axl</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">random</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">N</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">players</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">axl</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">N</span><span class="p">):</span>
+<span class="o">...</span>     <span class="n">player</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">([</span><span class="n">axl</span><span class="o">.</span><span class="n">Defector</span><span class="p">,</span> <span class="n">axl</span><span class="o">.</span><span class="n">Cooperator</span><span class="p">])</span>
+<span class="o">...</span>     <span class="n">players</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">player</span><span class="p">())</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">mp</span> <span class="o">=</span> <span class="n">axl</span><span class="o">.</span><span class="n">MoranProcess</span><span class="p">(</span><span class="n">players</span><span class="o">=</span><span class="n">players</span><span class="p">,</span> <span class="n">turns</span><span class="o">=</span><span class="mi">200</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">mp</span><span class="o">.</span><span class="n">play</span><span class="p">()</span>
+<span class="p">[</span><span class="n">Counter</span><span class="p">({</span><span class="s">'Cooperator'</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s">'Defector'</span><span class="p">:</span> <span class="mi">2</span><span class="p">}),</span>
+ <span class="n">Counter</span><span class="p">({</span><span class="s">'Cooperator'</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s">'Defector'</span><span class="p">:</span> <span class="mi">2</span><span class="p">}),</span>
+ <span class="n">Counter</span><span class="p">({</span><span class="s">'Cooperator'</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span> <span class="s">'Defector'</span><span class="p">:</span> <span class="mi">2</span><span class="p">}),</span>
+ <span class="n">Counter</span><span class="p">({</span><span class="s">'Cooperator'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'Defector'</span><span class="p">:</span> <span class="mi">3</span><span class="p">}),</span>
+ <span class="n">Counter</span><span class="p">({</span><span class="s">'Cooperator'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'Defector'</span><span class="p">:</span> <span class="mi">3</span><span class="p">}),</span>
+ <span class="n">Counter</span><span class="p">({</span><span class="s">'Cooperator'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">'Defector'</span><span class="p">:</span> <span class="mi">4</span><span class="p">}),</span>
+ <span class="n">Counter</span><span class="p">({</span><span class="s">'Cooperator'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">'Defector'</span><span class="p">:</span> <span class="mi">4</span><span class="p">}),</span>
+ <span class="n">Counter</span><span class="p">({</span><span class="s">'Cooperator'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">'Defector'</span><span class="p">:</span> <span class="mi">4</span><span class="p">}),</span>
+ <span class="n">Counter</span><span class="p">({</span><span class="s">'Defector'</span><span class="p">:</span> <span class="mi">5</span><span class="p">})]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">p</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></code></pre></figure>
+
+
+<p align="center">
+  <img src="/assets/images/evolution_results.png" style="height: 20%; width: 80%; object-fit: contain" />
+</p>
+
+<p align="justify">
+In population dynamics we do not concern ourselves with players anymore but 
+with strategies. In our example, if  two of the five lords in Westeros would 
+always chose to defect then the rest of the lords can be seen to adapt the same
+behavior. 
+</p>
+
+<p align="justify">
+These are just simple examples of how Game Theory and the Axelrod Python 
+Library can be used to comprehend everyday questions. There are various other 
+scenarios that can be explored. Please find all details about the Axelord 
+Python Library here: <a href="https://github.com/Axelrod-Python/Axelrod">
+https://github.com/Axelrod-Python/Axelrod</a>.
+</p>
+
+<p align="justify">
+ This blog post accompanies a poster which can be found here: <a href="https://nikoleta-v3.github.io/talks/talks//2017-08-28-Euroscipy/poster.pdf">
+ https://nikoleta-v3.github.io/talks/talks//2017-08-28-Euroscipy/poster.pdf</a>
+ which was presented at <a href="https://www.euroscipy.org/2017/">Euroscipy 2017</a>, in Erlangen Germany.
+</p>
+</p>
+
+    <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+
+        var disqus_shortname = 'nikoletaglynatsi'; 
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+</div>
+        </main>
+    </div>
+    
+    <footer>
+    <div class="footer-wrapper">
+        <div class="ui secondary menu inverted">
+            <p class="item">Wall-E &copy; 2017</p>
+            <div class="right menu">
+                <a class="item" href="/archive.html">
+                    Latest Posts
+                </a>
+                <a class="item" href="https://twitter.com/fsf">
+                    Twitter
+                </a>
+                <a class="item" href="https://github.com/abhn">
+                    Github
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="/assets/js/main.js"></script>
+<script type="text/javascript" src="/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/vendor/semantic.min.js"></script>
+
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+    <script src="/assets/js/vendor/semantic.min.js"></script>
+    <script type="/assets/js/main.js"></script>
+</body>
+
+</html>

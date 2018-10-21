@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Nikoleta E. Glynatsi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/mobile.css">
+    <link rel="stylesheet" href="/assets/css/vendor/syntax.css">
+    <link rel="stylesheet" href="/assets/css/vendor/semantic.min.css"/>
+
+    <link rel="shortcut icon" type="image/png" href="/assets/img/logo.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="page-wrap">
+        <div class="header-wrapper">
+    <header>
+        <!-- logo and description -->
+        
+        <nav class="site-nav">
+            <div class="left-nav">
+                <!-- add titles to all buttons -->
+                <div class="ui secondary menu inverted">
+                    <a class="item" href="/">
+                        Home
+                    </a>
+                    <a class="item" href="/about.html">
+                        About
+                    </a>
+                    <a class="item" href="/blog.html">
+                        Blog
+                    </a>
+                    <a class="item" href="https://nikoleta-v3.github.io/talks/">
+                        Talks
+                    </a>
+                    <div class="right menu">
+                        <div id="head-search" class="ui category search item">
+                            <div class="ui transparent icon input">
+                                <input placeholder="Search..." type="text" id="search-input" onkeypress="handleKeyPress()">
+                                <i class="search link icon" onclick="handleSubmit()"></i>
+                            </div>
+                        </div>
+
+                        <a class="item" href="https://twitter.com/NikoletaGlyn">
+                            <i class="twitter link icon"></i>
+                        </a>
+                        <a class="item" href="https://github.com/Nikoleta-v3">
+                            <i class="github link icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-nav"></div>
+        </nav>
+    </header>
+</div>
+        <main>
+            <div class="post-container">
+    <center>
+        <span class="date">
+            05 Jun 2018 
+             
+        </span>
+        <h1 class="post-title">Resultants in SymPy</h1>
+    </center>
+    <div class="ui divider"></div>
+    <p>I have recently been doing some work related to systems of polynomial equations. This work
+has lead me to study several academics papers on <strong>resultant theory</strong>. In this blog
+post I aim to give an introduction to resultant theory and a demonstration of
+how we can use the Python package <a href="http://www.sympy.org/en/index.html">SymPy</a>
+to calculate the resultant of systems. I will end the blog post by describing the
+particular contribution I’ve recently made to <a href="http://www.sympy.org/en/index.html">SymPy</a>.</p>
+
+<p>To start of let us familiarise ourselves with some mathematical definitions
+and I am going to use SymPy to demonstrate several examples.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">sympy</span> <span class="k">as</span> <span class="n">sym</span></code></pre></figure>
+
+<p>Initially what is polynomial? Α <strong>polynomial</strong> is an expression consisting of
+variables and coefficients. Using the following code we can define the polynomials
+\(f\) and \(g\) which are depended on a variable \(x\).</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="n">sym</span><span class="o">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">'x'</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">f</span> <span class="o">=</span> <span class="n">x</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">-</span> <span class="mi">5</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">6</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span> <span class="o">=</span> <span class="n">x</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">-</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">2</span></code></pre></figure>
+
+<p>Now a <strong>system of polynomial equations</strong> is a set of simultaneous equations.
+For example, the following two expressions compose a system of two polynomials
+where both must equal 0.</p>
+
+<p>\[f(x) = 0\]
+\[g(x) = 0\]</p>
+
+<p>We are interested in the values of \(x\) for which both equations \(f\) and \(g\)
+simultaneously fall to zero. More superficially we are interested if values for
+which all polynomials are nullified do exist! Though there are other methods for addressing
+such problem here we consider the <strong>resultant</strong>.</p>
+
+<p>The resultant of two polynomials is a polynomial expression of their coefficients,
+which is equal to zero if and only if the polynomials have a common root.</p>
+
+<p>Several resultant formulations exist within the literature. One of the most common
+ones is Sylvester’s resultant which is defined as the determinant of
+<a href="http://mathworld.wolfram.com/SylvesterMatrix.html">Sylvester’s matrix</a>. Sylvester’s
+formulation is implemented within SymPy (<a href="http://docs.sympy.org/latest/modules/polys/internals.html?highlight=sylvester">docs</a>)
+and it can easily be calculated using a few lines of code.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">sympy.polys</span> <span class="kn">import</span> <span class="n">subresultants_qq_zz</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">matrix</span> <span class="o">=</span> <span class="n">subresultants_qq_zz</span><span class="o">.</span><span class="n">sylvester</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">g</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">matrix</span>
+<span class="n">Matrix</span><span class="p">([</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span>  <span class="mi">6</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
+<span class="p">[</span><span class="mi">0</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span>  <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span>
+<span class="p">[</span><span class="mi">0</span><span class="p">,</span>  <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">]])</span></code></pre></figure>
+
+<p>By calculating the determinant of Sylvester’s resultant we know that the
+system has a common root. That is because the determinant is equal to 0.
+The common root is for \(x=2\) which is trivial if we were to factorise
+\(f\) and \(g\).</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">matrix</span><span class="o">.</span><span class="n">det</span><span class="p">()</span>
+<span class="mi">0</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">f</span><span class="o">.</span><span class="n">factor</span><span class="p">()</span>
+<span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">3</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span><span class="o">.</span><span class="n">factor</span><span class="p">()</span>
+<span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span></code></pre></figure>
+
+<p>The resultant can do more than just assure us that systems do have roots. For
+example when we have a system of 2 polynomial equations in two variables we can solve for one variable
+where the second one is kept as a coefficient. This actually allow us to find the
+roots of the system. That is also why the resultant is often refereed to as the
+<strong>eliminator</strong>.</p>
+
+<p>Let’s consider another example where now \(f\) and \(g\) are also depended
+on \(y\).</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">y</span> <span class="o">=</span> <span class="n">sym</span><span class="o">.</span><span class="n">symbols</span><span class="p">(</span><span class="s">'y'</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">f</span> <span class="o">=</span> <span class="n">x</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">+</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="o">-</span><span class="mi">1</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">g</span> <span class="o">=</span> <span class="n">x</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">x</span> <span class="o">-</span> <span class="n">y</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">y</span> <span class="o">-</span> <span class="mi">1</span>
+<span class="o">&gt;&gt;</span> <span class="n">matrix</span> <span class="o">=</span> <span class="n">subresultants_qq_zz</span><span class="o">.</span><span class="n">sylvester</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">g</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="o">&gt;&gt;</span> <span class="n">matrix</span>
+<span class="n">Matrix</span><span class="p">([</span>
+<span class="p">[</span><span class="n">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span>              <span class="mi">0</span><span class="p">],</span>
+<span class="p">[</span>    <span class="mi">0</span><span class="p">,</span>          <span class="n">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">],</span>
+<span class="p">[</span>   <span class="o">-</span><span class="mi">1</span><span class="p">,</span>              <span class="mi">2</span><span class="p">,</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span><span class="o">*</span><span class="n">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">matrix</span><span class="o">.</span><span class="n">det</span><span class="p">()</span><span class="o">.</span><span class="n">factor</span><span class="p">()</span>
+<span class="o">-</span><span class="n">x</span><span class="o">*</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">x</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span></code></pre></figure>
+
+<p>What we see is that in order for the system to have a common root, \(x\) must be \(\in \{-3, 0, 1\}\).
+Now by substituting these values of \(x\), each at a time, in \(f\) and
+\(g\) and repeat the process and find roots for \(y\).</p>
+
+<p>But what if we had a more generic system? Lets say a system of \(m\) polynomials in
+\(n\) variables. Sylvester’s formulation would not be able to be applied to
+such systems. For such systems we use <strong>multivariate resultants</strong>.</p>
+
+<p>A number of multivariate resultants can be found in the literature. An example of a
+multivariate resultant is <a href="https://pdfs.semanticscholar.org/074d/652f97d07a2d5150764c2f448a6d98d3ab3b.pdf">Dixon’s resultant</a>.
+Let us consider our final example with a 3 polynomial system dependent on
+\(x\) and \(y\).</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">sympy.polys.multivariate_resultants</span> <span class="kn">import</span> <span class="n">DixonResultant</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">p</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">q</span> <span class="o">=</span> <span class="n">x</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">+</span> <span class="n">y</span> <span class="o">**</span> <span class="mi">3</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">h</span> <span class="o">=</span> <span class="n">x</span> <span class="o">**</span> <span class="mi">2</span> <span class="o">+</span> <span class="n">y</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">matrix</span> <span class="o">=</span> <span class="n">DixonResultant</span><span class="p">(</span><span class="n">variables</span><span class="o">=</span><span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">],</span> <span class="n">polynomials</span><span class="o">=</span><span class="p">[</span><span class="n">p</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">h</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">matrix</span><span class="o">.</span><span class="n">det</span><span class="p">()</span>
+<span class="mi">0</span></code></pre></figure>
+
+<p>Dixon’s resultant, the determinant of the matrix, is equal to zero. This indicates
+that our system has indeed a common root.</p>
+
+<p>Multivariate resultants have many advantages. It allow us to know if a large
+system has roots but moreover there are several ways the roots can be extract,
+but we will not cover those, however this great paper does
+<a href="https://dl.acm.org/citation.cfm?id=220370">Comparison of various multivariate resultant formulations</a>.</p>
+
+<p>Multivariate resultants were not implemented within SymPy until recently. I am very
+happy to say that Dixon’s and <a href="https://projecteuclid.org/euclid.chmm/1263317746">Macaulay’s resultant</a>
+have been my first contribution to the library. Sympy is a great project that continuously
+helps with me with my research and I am thrilled to have contributed to the project!</p>
+
+    <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+
+        var disqus_shortname = 'nikoletaglynatsi'; 
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+</div>
+        </main>
+    </div>
+    
+    <footer>
+    <div class="footer-wrapper">
+        <div class="ui secondary menu inverted">
+            <p class="item">Wall-E &copy; 2017</p>
+            <div class="right menu">
+                <a class="item" href="/archive.html">
+                    Latest Posts
+                </a>
+                <a class="item" href="https://twitter.com/fsf">
+                    Twitter
+                </a>
+                <a class="item" href="https://github.com/abhn">
+                    Github
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="/assets/js/main.js"></script>
+<script type="text/javascript" src="/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/vendor/semantic.min.js"></script>
+
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+    <script src="/assets/js/vendor/semantic.min.js"></script>
+    <script type="/assets/js/main.js"></script>
+</body>
+
+</html>

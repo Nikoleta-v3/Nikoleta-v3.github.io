@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Nikoleta E. Glynatsi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/mobile.css">
+    <link rel="stylesheet" href="/assets/css/vendor/syntax.css">
+    <link rel="stylesheet" href="/assets/css/vendor/semantic.min.css"/>
+
+    <link rel="shortcut icon" type="image/png" href="/assets/img/logo.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="page-wrap">
+        <div class="header-wrapper">
+    <header>
+        <!-- logo and description -->
+        
+        <nav class="site-nav">
+            <div class="left-nav">
+                <!-- add titles to all buttons -->
+                <div class="ui secondary menu inverted">
+                    <a class="item" href="/">
+                        Home
+                    </a>
+                    <a class="item" href="/about.html">
+                        About
+                    </a>
+                    <a class="item" href="/blog.html">
+                        Blog
+                    </a>
+                    <a class="item" href="https://nikoleta-v3.github.io/talks/">
+                        Talks
+                    </a>
+                    <div class="right menu">
+                        <div id="head-search" class="ui category search item">
+                            <div class="ui transparent icon input">
+                                <input placeholder="Search..." type="text" id="search-input" onkeypress="handleKeyPress()">
+                                <i class="search link icon" onclick="handleSubmit()"></i>
+                            </div>
+                        </div>
+
+                        <a class="item" href="https://twitter.com/NikoletaGlyn">
+                            <i class="twitter link icon"></i>
+                        </a>
+                        <a class="item" href="https://github.com/Nikoleta-v3">
+                            <i class="github link icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-nav"></div>
+        </nav>
+    </header>
+</div>
+        <main>
+            <div class="post-container">
+    <center>
+        <span class="date">
+            22 Sep 2017 
+             
+        </span>
+        <h1 class="post-title">Representing Evolved Sophisticated strategies using Tikz</h1>
+    </center>
+    <div class="ui divider"></div>
+    <p align="justify">
+Researchers have struggled for years to understand the conditions under
+which cooperation can emerge. The applications of such research can be
+found in industry, in society and in nature. As an applied mathematician
+the tool used in my research is a game called the <a href="https://en.wikipedia.org/wiki/Prisoner%27s_dilemma">
+prisoner’s dilemma </a>. It’s origins go back to the 1950’s and it has
+been an ongoing research topic until today.
+</p>
+
+<p align="justify">
+The prisoner’s dilemma is a two player game where the players can choose
+between two strategies, <b>cooperation</b> and <b>defection</b>.
+Since the <a href="https://en.wikipedia.org/wiki/The_Evolution_of_Cooperation">
+1980’s breakthrough</a>, many are in search of the dominant strategy of
+the iterated version of the game; the iterated prisoner’s dilemma.
+Many explore not only the strategies themselves but also what makes them
+dominant and robust.
+</p>
+
+<p align="justify">
+Since 2016 as part of my PhD, I was given the chance to work with a team
+of talented people on training a set of complex strategies and assessing
+their dominance and robustness. Some of the first outputs from this
+collaboration include:
+</p>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/1707.06920">Evolution Reinforces Cooperation with the Emergence of Self-Recognition
+Mechanisms: an empirical study of the Moran process for the iterated
+Prisoner’s dilemma</a>,</li>
+  <li><a href="https://arxiv.org/abs/1707.06307">Reinforcement Learning Produces Dominant Strategies for the Iterated
+Prisoner’s Dilemma.</a></li>
+</ul>
+
+<p align="justify">
+The first paper, describes how several optimisation methods, such as
+genetic and particle swarm algorithms can be used to train dominant
+strategies of the iterated prisoner’s dilemma. The performance of the
+trained strategies were verified through tournament simulations. Most of
+the opponent strategies are from the literature. The second paper follows
+a similar approach but this time the robustness of the trained strategies
+is explored through an evolutionary process, called a
+<a href="https://en.wikipedia.org/wiki/Moran_process">Moran process</a>.
+</p>
+
+<p align="justify">
+In the first paper, it can be seen that iterated prisoner’s dilemma
+strategies can be represented with several different methods. Lookup
+tables, finite state machines and neural networks are all valid presentations
+of the strategies. One of the most beneficial ways is using
+<a href="https://en.wikipedia.org/wiki/Finite-state_machine">finite state
+machines</a>. A finite state machine, allows you to determine a player's
+next move by following a map of actions.
+</p>
+
+<p align="center">
+  <img src="/assets/images/fsm_three.png" style="height: 40%; width: 60%; object-fit: contain" />
+</p>
+
+<p align="justify">
+The image above is one of the trained strategies, an  8-state strategy,
+described in the second paper, represented using a finite state machine.
+Transition arrows are labelled <i>O/P</i> where <i>O</i> is the opponent’s
+last action and <i>P</i> is the player’s response. Note that the strategy’s
+first move, enters state 1, is always <b>cooperation</b>.
+</p>
+
+<p align="justify">
+Drawing the finite state representation of the trained strategies found
+in both articles has been one my contributions to these papers.
+The strategies were given to my in python code with the following format:
+</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">fsm_transition</span> <span class="o">=</span>  <span class="p">[(</span><span class="mi">0</span><span class="p">,</span> <span class="n">C</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">C</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">C</span><span class="p">),</span>
+                   <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">C</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="n">D</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">C</span><span class="p">),</span>
+                   <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">C</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">C</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">D</span><span class="p">),</span>
+                   <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">C</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="n">D</span><span class="p">),</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="n">D</span><span class="p">),</span>
+                   <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="n">C</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">C</span><span class="p">),</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">D</span><span class="p">),</span>
+                   <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="n">C</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="n">C</span><span class="p">),</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">D</span><span class="p">),</span>
+                   <span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="n">C</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="n">D</span><span class="p">),</span> <span class="p">(</span><span class="mi">6</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="n">D</span><span class="p">),</span>
+                   <span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="n">C</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="n">D</span><span class="p">),</span> <span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="n">D</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="n">C</span><span class="p">)]]</span></code></pre></figure>
+
+<p align="justify">
+Note that writing the strategies this way is in line with how finite state
+machines strategies are encoded in the Python package Axelrod used in
+this work, <a href="http://axelrod.readthedocs.io/en/stable/_modules/axelrod/strategies/finite_state_machines.html?highlight=finite%20state%20machines">
+see documentation</a>.
+</p>
+
+<p align="justify">
+As a software developer I am very comfortable with the programming language
+Python. So on my first attempt to draw these strategies  I used a Python
+tool called <a href="https://networkx.github.io/">networkx</a>.
+Networkx, allows me to generate a simple graph to find the best layout,
+using the library's already defined
+<a href="https://networkx.github.io/documentation/networkx-1.9.1/reference/drawing.html?highlight=layouts">
+layouts</a>.
+</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="n">nx</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">8</span><span class="p">))</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">edges</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">,</span>  <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">,],</span>
+             <span class="p">[</span><span class="mi">1</span><span class="p">,</span>  <span class="mi">5</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,],</span>
+             <span class="p">[</span><span class="mi">2</span><span class="p">,</span>  <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,],</span>
+             <span class="p">[</span><span class="mi">3</span><span class="p">,</span>  <span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">,],</span>
+             <span class="p">[</span><span class="mi">4</span><span class="p">,</span>  <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">,],</span>
+             <span class="p">[</span><span class="mi">5</span><span class="p">,</span>  <span class="mi">6</span><span class="p">],</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">,],</span>
+             <span class="p">[</span><span class="mi">6</span><span class="p">,</span>  <span class="mi">6</span><span class="p">],</span> <span class="p">[</span><span class="mi">6</span><span class="p">,</span> <span class="mi">6</span><span class="p">,],</span>
+             <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">7</span><span class="p">],</span>  <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">5</span><span class="p">]]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">(</span><span class="n">edges</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">shell_layout</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="o">=</span><span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span></code></pre></figure>
+
+<p align="center">
+  <img src="/assets/images/fsm_three_network.png" style="height: 60%; width: 80%; object-fit: contain" />
+</p>
+
+<p align="justify">
+All of this leads to the <a href="https://en.wikipedia.org/wiki/PGF/TikZ">
+Tikz</a> code below:
+</p>
+
+<figure class="highlight"><pre><code class="language-latex" data-lang="latex"><span class="k">\documentclass</span><span class="p">{</span>standalone<span class="p">}</span>
+
+<span class="k">\usepackage</span><span class="p">{</span>tikz<span class="p">}</span>
+<span class="k">\usepackage</span><span class="p">{</span>standalone<span class="p">}</span>
+<span class="k">\usetikzlibrary</span><span class="p">{</span>calc<span class="p">}</span>
+
+<span class="nt">\begin{document}</span>
+    <span class="nt">\begin{tikzpicture}</span>
+    <span class="k">\tikzstyle</span><span class="p">{</span>state<span class="p">}</span>=[minimum width=0.5cm, font=<span class="k">\boldmath</span>];
+
+    <span class="k">\node</span><span class="na">[circle, draw=black, thick]</span>  (0) at (0,0) [state] <span class="p">{$</span><span class="m">1</span><span class="p">$}</span>;
+    <span class="k">\node</span><span class="na">[circle, draw=black, thick]</span>  (1) at (<span class="p">$</span><span class="o">(</span><span class="m">0</span><span class="o">)+(</span><span class="m">0</span><span class="nb">,</span><span class="m">2</span><span class="o">)</span><span class="p">$</span>) [state] <span class="p">{$</span><span class="m">2</span><span class="p">$}</span>;
+    <span class="k">\node</span><span class="na">[circle, draw=black, thick]</span>  (2) at (<span class="p">$</span><span class="o">(</span><span class="m">1</span><span class="o">)+(</span><span class="m">2</span><span class="nb">,</span><span class="m">1</span><span class="nb">.</span><span class="m">5</span><span class="o">)</span><span class="p">$</span>) [state] <span class="p">{$</span><span class="m">3</span><span class="p">$}</span>;
+    <span class="k">\node</span><span class="na">[circle, draw=black, thick]</span>  (3) at (<span class="p">$</span><span class="o">(</span><span class="m">2</span><span class="o">)+(</span><span class="m">3</span><span class="nb">,</span><span class="m">0</span><span class="o">)</span><span class="p">$</span>) [state] <span class="p">{$</span><span class="m">4</span><span class="p">$}</span>;
+    <span class="k">\node</span><span class="na">[circle, draw=black, thick]</span>  (4) at (<span class="p">$</span><span class="o">(</span><span class="m">1</span><span class="o">)+(</span><span class="m">8</span><span class="nb">,</span><span class="m">0</span><span class="o">)</span><span class="p">$</span>) [state] <span class="p">{$</span><span class="m">5</span><span class="p">$}</span>;
+    <span class="k">\node</span><span class="na">[circle, draw=black, thick]</span>  (5) at (<span class="p">$</span><span class="o">(</span><span class="m">0</span><span class="o">)+(</span><span class="m">8</span><span class="nb">,</span><span class="m">0</span><span class="o">)</span><span class="p">$</span>) [state] <span class="p">{$</span><span class="m">6</span><span class="p">$}</span>;
+    <span class="k">\node</span><span class="na">[circle, draw=black, thick]</span>  (6) at (<span class="p">$</span><span class="o">(</span><span class="m">3</span><span class="o">)+(</span><span class="m">0</span><span class="nb">,</span><span class="o">-</span><span class="m">4</span><span class="nb">.</span><span class="m">5</span><span class="o">)</span><span class="p">$</span>) [state] <span class="p">{$</span><span class="m">7</span><span class="p">$}</span>;
+    <span class="k">\node</span><span class="na">[circle, draw=black, thick]</span>  (7) at (<span class="p">$</span><span class="o">(</span><span class="m">2</span><span class="o">)+(</span><span class="m">0</span><span class="nb">,</span><span class="o">-</span><span class="m">4</span><span class="nb">.</span><span class="m">5</span><span class="o">)</span><span class="p">$</span>) [state] <span class="p">{$</span><span class="m">8</span><span class="p">$}</span>;
+
+    <span class="k">\coordinate</span><span class="na">[left of=0]</span> (s);
+    <span class="k">\draw</span> (s) edge[out=0, in=180, -&gt;, thick] node [above] <span class="p">{$</span><span class="nb">C</span><span class="p">$}</span> (0);
+
+    <span class="k">\draw</span> (0) edge[out=-45, in=-100, loop, thick] node [below] <span class="p">{$</span><span class="nb">C</span><span class="o">/</span><span class="nb">C</span><span class="p">$}</span> (0);
+    <span class="k">\draw</span> (6) edge[out=-45, in=-100, loop, thick] node [below] <span class="p">{$</span><span class="nb">C</span><span class="o">/</span><span class="nb">D</span><span class="p">$}</span> (6);
+    <span class="k">\draw</span> (6) edge[out=190, in=135, loop, thick] node [below, yshift=-0.5cm] <span class="p">{$</span><span class="nb">D</span><span class="o">/</span><span class="nb">D</span><span class="p">$}</span> (6);
+    <span class="k">\draw</span> (7) edge[out=190, in=135, loop, thick] node [above, xshift=1cm] <span class="p">{$</span><span class="nb">C</span><span class="o">/</span><span class="nb">D</span><span class="p">$}</span> (7);
+    <span class="k">\draw</span> (2) edge[out=190, in=135, loop, thick] node [left] <span class="p">{$</span><span class="nb">D</span><span class="o">/</span><span class="nb">D</span><span class="p">$}</span> (2);
+
+    <span class="k">\draw</span> (2) edge[out=0,in=180,-&gt;,thick] node [above] <span class="p">{$</span><span class="nb">C</span><span class="o">/</span><span class="nb">C</span><span class="p">$}</span> (3);
+    <span class="k">\draw</span> (3) edge[out=-35,in=170,-&gt;,thick] node [above right] <span class="p">{$</span><span class="nb">C</span><span class="o">/</span><span class="nb">D</span><span class="p">$}</span> (4);
+    <span class="k">\draw</span> (5) edge[out=-135,in=0,-&gt;,thick] node [below] <span class="p">{$</span><span class="nb">C</span><span class="o">/</span><span class="nb">C</span><span class="p">$}</span> (6);
+    <span class="k">\draw</span> (0) edge[out=45,in=-135,-&gt;,thick] node [above, rotate=45, xshift=2cm,
+                                                  yshift=-0.5cm] <span class="p">{$</span><span class="nb">D</span><span class="o">/</span><span class="nb">C</span><span class="p">$}</span> (3);
+
+    <span class="k">\draw</span> (1) edge[out=-45,in=180,-&gt;,thick] node [below right, xshift=2cm] <span class="p">{$</span><span class="nb">C</span><span class="o">/</span><span class="nb">D</span><span class="p">$}</span> (5);
+    <span class="k">\draw</span> (1) edge[out=-135,in=135,-&gt;,thick] node [left] <span class="p">{$</span><span class="nb">D</span><span class="o">/</span><span class="nb">C</span><span class="p">$}</span> (0);
+    <span class="k">\draw</span> (3) edge[out=-90,in=90,-&gt;,thick] node [above, rotate=90] <span class="p">{$</span><span class="nb">D</span><span class="o">/</span><span class="nb">D</span><span class="p">$}</span> (6);
+    <span class="k">\draw</span> (4) edge[out=90,in=0,-&gt;,thick] node [above] <span class="p">{$</span><span class="nb">C</span><span class="o">/</span><span class="nb">C</span><span class="p">$}</span> (3);
+    <span class="k">\draw</span> (4) edge[out=180,in=0,-&gt;,thick] node [above left, xshift=-2.5cm] <span class="p">{$</span><span class="nb">D</span><span class="o">/</span><span class="nb">D</span><span class="p">$}</span> (1);
+    <span class="k">\draw</span> (5) edge[out=135,in=-45,-&gt;,thick] node [below, rotate=-45] <span class="p">{$</span><span class="nb">D</span><span class="o">/</span><span class="nb">D</span><span class="p">$}</span> (3);
+    <span class="k">\draw</span> (7) edge[out=-90,in=-90,-&gt;,thick] node [below] <span class="p">{$</span><span class="nb">D</span><span class="o">/</span><span class="nb">C</span><span class="p">$}</span> (5);
+    <span class="nt">\end{tikzpicture}</span>
+<span class="nt">\end{document}</span></code></pre></figure>
+
+<p><b>Note that the labels for the states of the finite state machine begin
+from 1 and not zero. </b></p>
+
+<p align="justify">
+Furthermore, a small test was written to ensure that the transitions and
+actions of the strategies source code corresponded with the Tikz code.
+</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">collections</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">imp</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">fsm_players</span> <span class="o">=</span>  <span class="n">imp</span><span class="o">.</span><span class="n">load_source</span><span class="p">(</span><span class="s">'players'</span><span class="p">,</span> <span class="s">'players.py'</span><span class="p">)</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">tikz_line_to_transition</span><span class="p">(</span><span class="n">line</span><span class="p">):</span>
+<span class="o">...</span>     <span class="s">"""Parse a tikz line corresponding to an edge"""</span>
+<span class="o">...</span>     <span class="n">current_state</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">line</span><span class="p">[</span><span class="n">line</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s">"("</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">:</span> <span class="n">line</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s">")"</span><span class="p">)])</span>
+<span class="o">...</span>     <span class="n">next_state</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">line</span><span class="p">[</span><span class="n">line</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s">"("</span><span class="p">,</span> <span class="n">line</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s">"("</span><span class="p">)</span> <span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">:</span> <span class="n">line</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s">")"</span><span class="p">,</span> <span class="n">line</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s">")"</span><span class="p">)</span> <span class="o">+</span><span class="mi">1</span><span class="p">)])</span>
+<span class="o">...</span>     <span class="n">input_action</span><span class="p">,</span> <span class="n">output_action</span> <span class="o">=</span> <span class="n">line</span><span class="p">[</span><span class="n">line</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s">"{$"</span><span class="p">)</span> <span class="o">+</span> <span class="mi">2</span><span class="p">:</span> <span class="n">line</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s">"$}"</span><span class="p">)]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">"/"</span><span class="p">)</span>
+
+<span class="o">...</span>     <span class="k">return</span> <span class="p">(</span><span class="n">current_state</span><span class="p">,</span> <span class="n">input_action</span><span class="p">,</span> <span class="n">next_state</span><span class="p">,</span> <span class="n">output_action</span><span class="p">)</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">convert_tex_fsm</span><span class="p">(</span><span class="n">fsm_file</span><span class="p">):</span>
+<span class="o">...</span>     <span class="n">fsm</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="o">...</span>     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">fsm_file</span><span class="p">,</span> <span class="s">"r"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="o">...</span>         <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">f</span><span class="p">:</span>
+<span class="o">...</span>             <span class="k">if</span> <span class="s">"</span><span class="se">\\</span><span class="s">draw"</span> <span class="ow">in</span> <span class="n">line</span> <span class="ow">and</span> <span class="ow">not</span> <span class="s">"(s)"</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>  <span class="c"># Pick out lines corresponding to an edge</span>
+<span class="o">...</span>                 <span class="n">fsm</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tikz_line_to_transition</span><span class="p">(</span><span class="n">line</span><span class="p">))</span>
+<span class="o">...</span>     <span class="k">return</span> <span class="n">fsm</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">tex_file</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">([</span><span class="s">"../tex/fsm_three.tex"</span><span class="p">,</span> <span class="s">"../tex/fsm_two.tex"</span><span class="p">,</span> <span class="s">"../tex/fsm_three.tex"</span><span class="p">]):</span>
+<span class="o">...</span>     <span class="k">assert</span> <span class="n">fsm_players</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">fsm</span><span class="o">.</span><span class="n">state_transitions</span> <span class="o">==</span> <span class="p">{</span><span class="n">transition</span><span class="p">[:</span><span class="mi">2</span><span class="p">]:</span><span class="n">transition</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span> <span class="k">for</span>  <span class="n">transition</span> <span class="ow">in</span>
+<span class="o">...</span>     <span class="n">convert_tex_fsm</span><span class="p">(</span><span class="n">tex_file</span><span class="p">)}</span></code></pre></figure>
+
+<p align="justify">
+All the work described in this blog was made possible due to an open source
+library called the Axelrod Python Library,
+<a href="url">http://axelrod.readthedocs.io/</a>. I would like
+to thank the co authors of the papers mentioned in this blogs for making
+me part of this research,
+</p>
+
+<ul>
+  <li><a href="http://www.marcharper.net/">Marc Harper</a></li>
+  <li><a href="https://twitter.com/drvinceknight">Vincent Knight</a></li>
+  <li><a href="https://twitter.com/opcampbell">Owen Campbell</a></li>
+  <li><a href="http://mojones.net/">Martin Jones</a></li>
+  <li><a href="https://github.com/GDKO">Georgios Koutsovoulos</a></li>
+</ul>
+
+<p><b>Bonus:</b>
+See Vince Knight’s <a href="http://vknight.org/unpeudemath/math/2017/07/28/sophisticated-ipd-strategies-beat-simple-ones.html">
+blog post</a> and Marc Harper’s <a href="http://marcharper.codes/2017-07-31/axelrod.html">
+blog post</a>.</p>
+
+    <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+
+        var disqus_shortname = 'nikoletaglynatsi'; 
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+</div>
+        </main>
+    </div>
+    
+    <footer>
+    <div class="footer-wrapper">
+        <div class="ui secondary menu inverted">
+            <p class="item">Wall-E &copy; 2017</p>
+            <div class="right menu">
+                <a class="item" href="/archive.html">
+                    Latest Posts
+                </a>
+                <a class="item" href="https://twitter.com/fsf">
+                    Twitter
+                </a>
+                <a class="item" href="https://github.com/abhn">
+                    Github
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="/assets/js/main.js"></script>
+<script type="text/javascript" src="/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/vendor/semantic.min.js"></script>
+
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+    <script src="/assets/js/vendor/semantic.min.js"></script>
+    <script type="/assets/js/main.js"></script>
+</body>
+
+</html>
