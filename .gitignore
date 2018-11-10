@@ -7,3 +7,6 @@
 
 # Gemfiles
 Gemfile*
+
+# files
+_site/
