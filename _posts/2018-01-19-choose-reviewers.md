@@ -102,7 +102,7 @@ Thus the potential reviewers of my paper are the people who rank first on the fo
 histogram.
 
 <p align="center">
- <img src="/assets/images/reviewers_hist.png" style='height: 60%; width: 80%; object-fit: contain'>
+ <img src="/assets/images/reviewers_hist.png" style='height: 40%; width: 70%; object-fit: contain'>
 </p>
 
 A manual check of the reviewers that stand out must be done as well. I am not

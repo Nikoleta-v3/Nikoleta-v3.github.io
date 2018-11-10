@@ -59,7 +59,7 @@ next move by following a map of actions.
 </p>
 
 <p align="center">
-  <img src="/assets/images/fsm_three.png" style='height: 40%; width: 60%; object-fit: contain'>
+  <img src="/assets/images/fsm_three.png" style='height: 20%; width: 40%; object-fit: contain'>
 </p>
 
 <p align="justify">
@@ -123,7 +123,7 @@ layouts</a>.
 {% endhighlight %}
 
 <p align="center">
-  <img src="/assets/images/fsm_three_network.png" style='height: 60%; width: 80%; object-fit: contain'>
+  <img src="/assets/images/fsm_three_network.png" style='height: 20%; width: 60%; object-fit: contain'>
 </p>
 
 <p align="justify">

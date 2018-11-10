@@ -43,7 +43,7 @@ the opponent's previous move.
 </p>
 
 <p align="center">
-  <img src="/assets/images/tit_for_tat_fsm.jpg" style='height: 20%; width: 40%; object-fit: contain'>
+  <img src="/assets/images/tit_for_tat_fsm.jpg" style='height: 10%; width: 20%; object-fit: contain'>
 </p>
 
 <p align="center">
@@ -129,7 +129,7 @@ and a Random(<i>p</i>=0.5) player, as illustrated in the picture below.
 </p>
 
 <p align="center">
-  <img src="/assets/images/spatial.jpg" style='height: 30%; width: 60%; object-fit: contain'>
+  <img src="/assets/images/spatial.jpg" style='height: 15%; width: 30%; object-fit: contain'>
 </p>
 
 
@@ -155,7 +155,7 @@ test the hypothesis which is proven to hold.
 </p>
 
 <p align="center">
-  <img src="/assets/images/tft_random.jpg" style='height: 60%; width: 80%; object-fit: contain'>
+  <img src="/assets/images/tft_random.jpg" style='height: 30%; width: 40%; object-fit: contain'>
 </p>
 
 <p align="justify">

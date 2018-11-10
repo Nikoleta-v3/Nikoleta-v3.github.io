@@ -96,7 +96,7 @@ the results.
 </p>
 
 <p align="center">
-  <img src="/assets/images/degree_centrality.jpg" style='height: 60%; width: 80%; object-fit: contain'>
+  <img src="/assets/images/degree_centrality.jpg" style='height: 20%; width: 40%; object-fit: contain'>
 </p>
 
 <p align="justify">
@@ -135,11 +135,11 @@ Lannister is third.
 </p>
 
 <p align="center">
-  <img src="/assets/images/betweeness_unweighted.jpg" style='height: 60%; width: 80%; object-fit: contain'>
+  <img src="/assets/images/betweeness_unweighted.jpg" style='height: 20%; width: 40%; object-fit: contain'>
 </p>
 
 <p align="center">
-  <img src="/assets/images/betweeness.jpg" style='height: 60%; width: 80%; object-fit: contain'>
+  <img src="/assets/images/betweeness.jpg" style='height: 20%; width: 40%; object-fit: contain'>
 </p>
 
 <p align="justify">
@@ -156,11 +156,11 @@ Pagerank centrality</a>, which is a centrality measured originally used by Googl
 {% endhighlight %}
 
 <p align="center">
-  <img src="/assets/images/pagerank_unweighted.jpg" style='height: 60%; width: 80%; object-fit: contain'>
+  <img src="/assets/images/pagerank_unweighted.jpg" style='height: 20%; width: 40%; object-fit: contain'>
 </p>
 
 <p align="center">
-  <img src="/assets/images/pagerank.jpg" style='height: 60%; width: 80%; object-fit: contain'>
+  <img src="/assets/images/pagerank.jpg" style='height: 20%; width: 40%; object-fit: contain'>
 </p>
 
 <p align="justify">
@@ -197,7 +197,7 @@ a bunch of people do end up dead so let’s get ahead and look at the top
 </p>
 
 <p align="center">
-  <img src="/assets/images/progress.jpg" style='height: 60%; width: 80%; object-fit: contain'>
+  <img src="/assets/images/progress.jpg" style='height: 20%; width: 40%; object-fit: contain'>
 </p>
 
 <p align="justify">
@@ -222,7 +222,7 @@ Well, no. At least not for such big networks as it can be seen here,
 </p>
 
 <p align="center">
-  <img src="/assets/images/network.jpg" style='height: 80%; width: 100%; object-fit: contain'>
+  <img src="/assets/images/network.jpg" style='height: 40%; width: 60%; object-fit: contain'>
 </p>
 
 <p align="justify">

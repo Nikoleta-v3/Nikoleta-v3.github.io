@@ -64,7 +64,7 @@ There are three possible population that could be stable. These are,
 This is shown in figure below:
 
 <p align="center">
-  <img src="/assets/images/evolutionary.png" style='height: 80%; width: 100%; object-fit: contain'>
+  <img src="/assets/images/evolutionary.png" style='height: 60%; width: 80%; object-fit: contain'>
 </p>
 
 Using a realistic and generic utility model we tested the evolutionary stability
@@ -75,7 +75,7 @@ experiments. It is shown that for any given starting population everyone converg
 in an indiscriminately behaviour.
 
 <p align="center">
-  <img src="/assets/images/IndiscriminateESS.png" style='height: 100%; width: 100%; object-fit: contain'>
+  <img src="/assets/images/IndiscriminateESS.png" style='height: 60%; width: 80%; object-fit: contain'>
 </p>
 
 However, our results reveal that it is possible for a population of selective
@@ -84,7 +84,7 @@ utility of indiscriminate poachers. The disincentive factor can have several
 interpretations; such as engaging the rural communities that live with wildlife.
 
 <p align="center">
-  <img src="/assets/images/ESS-new-utility.png" style='height: 100%; width: 100%; object-fit: contain'>
+  <img src="/assets/images/ESS-new-utility.png" style='height: 60%; width: 80%; object-fit: contain'>
 </p>
 
 Essentially, our results for these model have shown that selective behaviour amongst

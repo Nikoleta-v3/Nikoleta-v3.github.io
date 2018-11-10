@@ -27,7 +27,7 @@ temptation for an individual to deviate and <b>Defect (5)</b>. The following
 matrix matches the players moves to payoffs.
 
 <p align="center">
-  <img src="/assets/images/matrix.png" style='height: 20%; width: 40%; object-fit: contain'>
+  <img src="/assets/images/matrix.png" style='height: 20%; width: 30%; object-fit: contain'>
 </p>
 
 <p align="justify">
@@ -113,7 +113,7 @@ explored and visualised. Such as the winner and the winning score.
 {% endhighlight %}
 
 <p align="center">
-  <img src="/assets/images/boxplot.png" style='height: 60%; width: 100%; object-fit: contain'>
+  <img src="/assets/images/boxplot.png" style='height: 40%; width: 70%; object-fit: contain'>
 </p>
 
 <p align="center">
@@ -159,7 +159,7 @@ population.
 {% endhighlight %}
 
 <p align="center">
-  <img src="/assets/images/evolution_results.png" style='height: 20%; width: 80%; object-fit: contain'>
+  <img src="/assets/images/evolution_results.png" style='height: 20%; width: 40%; object-fit: contain'>
 </p>
 
 <p align="justify">

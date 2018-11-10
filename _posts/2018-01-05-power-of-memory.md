@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 title:  "The power of memory."
 date:   2018-01-05
 comments: true
@@ -30,7 +31,7 @@ can choose the size of history which they are going to use in deciding their
 next move.
 
 <p align="center">
-  <img src="/assets/images/memory_one_power_of_memory.png" style='height: 100%; width: 100%; object-fit: contain'>
+  <img src="/assets/images/memory_one_power_of_memory.png" style='height: 60%; width: 80%; object-fit: contain'>
 </p>
 
 In 2012 [Press and Dyson](https://www.pnas.org/content/109/26/10409.abstract)
@@ -174,7 +175,7 @@ Computer trials have been also been run to test the above theorem. The results a
 given by,
 
 <p align="center">
-  <img src="/assets/images/tournament.png" style='height: 50%; width: 60%; object-fit: contain'>
+  <img src="/assets/images/tournament.png" style='height: 50%; width: 40%; object-fit: contain'>
 </p>
 
 Two things are captured by Theorem 2. Initially it can be seen that optimising
