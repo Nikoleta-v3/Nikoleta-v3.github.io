@@ -1,5 +1,4 @@
 # jekyll
-_site
 .sass-cache
 .jekyll-metadata
 
@@ -8,3 +7,6 @@ _site
 
 # Gemfiles
 Gemfile*
+
+# files
+_site/
