@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Are there publications in Mathematics written only by women?"
-date:   2019-06-6
+date:   2019-06-26
 comments: True
 ---
 
 <p style='text-align: justify;'> 
-Earlier this month I attended the 18<sup>th</sup> International Conference on Social Dilemmas.
-The conference has been a great experience and I would highly recommend it if you
+Earlier this month I attended the <a href="https://eller.arizona.edu/events/icsd19">18<sup>th</sup> International Conference on Social Dilemmas</a>.
+The conference was a great experience and I would highly recommend it if you
 are interested in the social dilemmas' research field. During the 2<sup>nd</sup>
 day of the conference and after having sat in many of the talks there was something
 I started to notice. That was that all the speakers, including female speakers, had mainly
@@ -16,7 +16,7 @@ be just one.
 </p>
 
 <p style='text-align: justify;'> 
-Now I am guilty of that myself. At the conference I presented a piece of work
+I am an example of this. At the conference I presented a piece of work
 that I conducted with my collaborators, and all three of them are men.
 So I started to wonder: Do female researchers publish alone? And more specifically
 do female Mathematicians publish together?
@@ -40,8 +40,8 @@ maintainer, called <a href="https://github.com/ArcasProject/Arcas">Arcas</a>.
 Using the library I can collect data from <a href="https://arxiv.org/">arXiv</a>,
 <a href="https://www.springer.com/gp">Springer</a> and <a href="https://www.ieee.org/">IEEE</a>
 on the topic of <strong>Mathematics</strong>. If you are interested in the code for collecting
-the data it can be found here (in the form of a Jupyter Notebook) and the data
-set itself can be found here.
+the data it can be found <a href="https://github.com/Nikoleta-v3/Nikoleta-v3.github.io/blob/master/assets/code/Women%20in%20Mathematics%20Blog%20data%20collection%20source.ipynb">here</a>
+(in the form of a Jupyter Notebook).
 </p>
 
 **Determining the Authors' Gender**
@@ -53,12 +53,13 @@ of this post. The meta data
 of interest here are the <strong>unique key</strong> (which will allows us to differentiate
 between articles), the <strong>year</strong> of publication, the names of the
 <strong>authors</strong>, the <strong>title</strong> of the article and the
-<strong>source</strong> (arXiv, Springer or IEEE) which has been added manually.
+<strong>source</strong> (arXiv, Springer or IEEE).
 </p>
 
 <p style='text-align: justify;'>
 An author's name consists of the author's forename and surname. To determine the
-gender of the author I am using a Python package called <code>gender_guesser</code>.
+gender of the author I am using a Python package called <a href="https://pypi.org/project/gender-guesser/">
+<code>gender_guesser</code></a>.
 <code>Gender_guesser</code> is an open source package which verifies gender based on the forename!
 The package it's based on the program "gender" by <a href="https://autohotkey.com/board/topic/20260-gender-verification-by-forename-cmd-line-tool-db/">Jorg Michael</a> and its
 use is pretty straightforward:
@@ -72,7 +73,7 @@ use is pretty straightforward:
 'female'
 {% endhighlight %}
 
-The result of `d.get_gender('nikoleta')` can be one the following:
+The result of `d.get_gender` can be one the following:
 
 - `unknown` (name not found),
 - `andy` (androgynous),
@@ -87,6 +88,8 @@ left to introduce. The **number of authors** per article, the **ratio of female 
 and the ratio of male authors \\(\frac{\text{#male} + \text{#mostly_male}}{\text{#authors}}\\).
 
 Now that all the measures have been presented we can proceed to the analysis.
+Note that the data is archived and available <a href="https://zenodo.org/record/3257436#.XRNq_VVKjZI">
+here</a>.
 
 **Analysis**
 
@@ -114,7 +117,7 @@ I would like to avoid making any further assumptions regarding the authors' gend
 
 <p style='text-align: justify;'>
 Thus, approximately 11473 authors within the data set are men and 2354 are
-women. This indicates a huge gap between the two genders in publications.
+women. This indicates a substantial gender gap in mathematics publications.
 <strong>For every female author there are 5 male ones.</strong>
 </p>
 
@@ -126,8 +129,9 @@ has won the <a href="https://en.wikipedia.org/wiki/Fields_Medal">Fields Medal</a
 in the field and less than 30% of all U.S. doctoral degrees in mathematics and
 statistics are awarded to women (<a href="https://ncses.nsf.gov/pubs/nsf19304/digest/field-of-degree-women#mathematics-and-statistics">source</a>).
 It is important to note that actions are being taken to encourage women employment
-in higher education and research positions in Mathematics. One initiative is that
-of <a href="https://www.ecu.ac.uk/equality-charters/athena-swan/">Athena SWAN</a>.
+in higher education and research positions in Mathematics. One example of this is
+<a href="https://www.ecu.ac.uk/equality-charters/athena-swan/">Athena SWAN</a>
+in the UK.
 </p>
 
 <p style='text-align: justify;'>
@@ -160,8 +164,8 @@ normalised distributions are also shown in Figure 2.
 
 <br>
 
-There is a significant difference (p value\\(=0.0\\)) between the two distributions.
-That is evident even by examining the graphical representations.
+There is a significant difference (p value\\(=0.0\\)) between the two distributions
+as can be seen in the plots of the distributions.
 
 <p style='text-align: justify;'>
 The are two
@@ -190,8 +194,8 @@ This is shown in Figure 3.
 </p>
 
 So **there are indeed articles written only by women**. It is most common
-however, that if a paper has women authors that **they make up the half of the publicising team**.
-An interesting and promising result.
+however, that if a paper has women authors that, on average,
+**they make up the half of the authors**.
 
 <figure align="center">
     <img src="/assets/images/female_ratio_distribution_excl_zeros.png" alt="Females" style="width:45%">
@@ -225,13 +229,15 @@ Lauter, Elisa Lorenzo Garcia, Maike Massierer, Adelina Manzateanu
 and Christelle Vincent.
 </p>
 
-For comparison, the same table has is given for male authors. Though similarly
+<p style='text-align: justify;'>
+For comparison, the same table is given for male authors. Though similarly
 a big percentage of papers written only by men have been written by a single man,
-approx 60%, the interesting difference **appears to be in papers with 3 to 5 authors**.
+approx 60%, the interesting difference <strong>appears to be in papers with 3 to 5 authors</strong>.
 Almost 8% of the publications written by only men, have been written by 3 authors.
 On the other hand only 2% of the publications written by women have 3 authors. That
 is 12 articles compared to 589. Similar observations can be made for papers
-with 4 and 5 authors. **There are hardly any with only female authors**.
+with 4 and 5 authors. <strong>There are hardly any with only female authors</strong>.
+</p>
 
 <br>
 
@@ -256,15 +262,15 @@ the inequality between the authors' gender.
 </p>
 
 <p style='text-align: justify;'>
-There are significantly less women publishing in Mathematics than men. More
+<strong>There are significantly less women publishing in Mathematics than men</strong>. More
 specifically every woman author corresponds to 5 males ones and 75% of the articles
-we have gathered (automatically and randomly) do not have a signle female author.
+we have gathered (automatically) do not have a single female author.
 Women mathematicians do however exist, I am also a proof!, and they do publish.
 </p>
 
 <p style='text-align: justify;'>
 If a papers has female authors then they are more likely to make up half of the
-publishing team, and there are also publications that are solitarily by women.
+authors, and there are also publications that are solitarily by women.
 However, there are significantly less publications made by teams of 3 to 5 women
 compared to men.
 </p>
@@ -304,7 +310,7 @@ So let's compare the gender ratios to another field.
 <p style='text-align: justify;'>
 I originally came up with the idea while sitting in a series of talks given
 by Psychologists. So it only seems fair to collect data in Psychology.
-Note that arXiv does not have papers in psychology so data have been collected only
+Note that arXiv does not have papers in Psychology so data have been collected only
 from IEEE and Springer. There a total of 10169 articles within the new data,
 and a total of 23740 unique authors. The gender ratio distributions are given
 by Figure 4.
@@ -324,3 +330,14 @@ by Figure 4.
 
 **It's hard to tell the difference between them right? Hopefully the ratios for**
 **Math publications will be the same in the near future.**
+
+If you are interested in the topic of gender inequality, gender stereotypes and how
+questionable science has been fueling the gender gap I highly recommend the book
+<a href="http://www.angelasaini.co.uk/inferior">Inferior</a>
+written by, one of my favourite authors, Angela Saini.
+
+Finally, the source code used for this post is available on GitHub:
+
+- <a href="https://github.com/Nikoleta-v3/Nikoleta-v3.github.io/blob/master/assets/code/Women%20in%20Mathematics%20Blog%20cleaning%20data.ipynb"> Cleaning data notebook</a>
+- <a href="https://github.com/Nikoleta-v3/Nikoleta-v3.github.io/blob/master/assets/code/Women%20in%20Mathematics%20blog%20post.ipynb"> Analysis notebook</a>
+- <a href="https://github.com/Nikoleta-v3/Nikoleta-v3.github.io/blob/master/assets/code/Women%20in%20Mathematics%20Blog%20post%20Psycology%20data.ipynb"> Psychology analysis</a>
