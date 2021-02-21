@@ -5,10 +5,8 @@
 # pycharm
 .idea/*
 
-# Gemfiles
-Gemfile*
-
 # files
 _site/
 
 .jekyll-cache/*
+Gemfile.lock
