@@ -149,3 +149,7 @@ th, td {
     clear: both;
     display: table;
   }
+
+ul li {
+    padding: 3px 0px;
+}

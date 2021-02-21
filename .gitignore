@@ -10,3 +10,5 @@ Gemfile*
 
 # files
 _site/
+
+.jekyll-cache/*
