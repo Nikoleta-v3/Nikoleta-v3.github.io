@@ -3,6 +3,7 @@ layout: post
 title:  "Resultants in SymPy"
 date:   2018-06-05
 comments: True
+math: true
 ---
 
 I have recently been doing some work related to systems of polynomial equations. This work

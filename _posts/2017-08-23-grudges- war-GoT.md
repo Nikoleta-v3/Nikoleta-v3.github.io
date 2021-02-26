@@ -2,6 +2,7 @@
 layout: post
 title:  "Grudges, War and Game of Thrones"
 comments: true
+math: true
 ---
 
 <p align="justify">

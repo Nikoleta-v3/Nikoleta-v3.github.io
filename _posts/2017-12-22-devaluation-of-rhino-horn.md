@@ -3,6 +3,7 @@ layout: post
 title:  "An Evolutionary Game Theoretic Model of Rhino Horn Devaluation."
 date:   2017-12-22
 comments: false
+math: true
 ---
 
 Τhe name rhinoceros means `nose horn’ which is often shortened to rhino. The name

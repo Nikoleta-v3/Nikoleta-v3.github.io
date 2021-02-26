@@ -3,6 +3,7 @@ layout: post
 title:  "Python, Graphs and Game of Thrones"
 date:   2017-10-19
 comments: true
+math: true
 ---
 
 

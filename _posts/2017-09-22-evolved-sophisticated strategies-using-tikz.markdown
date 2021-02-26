@@ -3,6 +3,7 @@ layout: post
 title:  "Representing Evolved Sophisticated strategies using Tikz"
 date:   2017-09-22
 comments: true
+math: true
 ---
 
 <p align="justify">

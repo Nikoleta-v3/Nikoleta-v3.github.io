@@ -3,6 +3,7 @@ layout: post
 title:  "Choosing reviewers."
 date:   2018-01-24
 comments: True
+math: true
 ---
 
 I recently came across the joy of submitting an article to a journal for publication.
