@@ -1,22 +1,51 @@
+---
+layout: compress
+# Default layout
+---
+
 <!DOCTYPE html>
-<html lang="en-us">
 
-{% include head.html %}
+{% capture prefer_mode %}
+  {% if site.theme_mode %}
+    mode="{{ site.theme_mode }}"
+  {% endif %}
+{% endcapture %}
 
-<body>
-    
-    <div class="page-wrap">
-        {% include header.html %}
-        <main>
-            {{ content }}
-        </main>
-    </div>
-    
-    {% include footer.html %}
+<html lang="{{ site.lang | default: "en-US" }}" {{ prefer_mode }}>
 
-    <script src="/assets/js/vendor/jquery.min.js"></script>
-    <script src="/assets/js/vendor/semantic.min.js"></script>
-    <script type="/assets/js/main.js"></script>
-</body>
+  {% include head.html %}
+
+  <body data-spy="scroll" data-target="#toc">
+
+    {% include sidebar.html %}
+
+    {% include topbar.html %}
+
+    <div id="main-wrapper">
+      <div id="main">
+
+        {% include refactor-content.html content=content %}
+
+        {% include footer.html %}
+
+      </div>
+
+      {% include search-results.html %}
+
+    </div> <!-- #main-wrapper -->
+
+    {% if page.mermaid %}
+      {% include mermaid.html %}
+    {% endif %}
+
+    <div id="mask"></div>
+
+    <a id="back-to-top" href="#" aria-label="back-to-top" class="btn btn-lg btn-box-shadow" role="button">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    {% include search-loader.html %}
+
+  </body>
 
 </html>
