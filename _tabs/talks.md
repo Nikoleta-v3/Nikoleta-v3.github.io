@@ -4,6 +4,10 @@ icon: fas fa-list
 order: 4
 ---
 
+<h4>2021</h4>
+<hr>
++ [**Prisoners, Game Theory & the Axelrod Library**]({{ site.pdfs }}/talks/2021-03-08-PyLadies/main.pdf) -&ensp;
+International Women's Day meets the PyLadies, &ensp; 2021.
 
 <h4>2020</h4>
 <hr>
