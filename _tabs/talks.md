@@ -7,6 +7,9 @@ order: 4
 <h4>2021</h4>
 <hr>
 
++ [**Publishing \& Citing Open Research Code**]({{ site.pdfs }}/talks/2021-11-17-Open-Life-Science/main.pdf) -
+Open Life Science.
+
 + [**Prisoners, Game Theory & the Axelrod Library**]({{ site.pdfs }}/talks/2021-03-08-PyLadies/main.pdf) -
 International Women's Day meets the PyLadies.
 
