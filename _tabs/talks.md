@@ -7,13 +7,13 @@ order: 4
 <h4>2022</h4>
 <hr>
 
-+ [**A computational approach to cooperation**]({{ site.pdfs }}/talks/2021-11-17-Open-Life-Science/main.pdf) -
++ [**A computational approach to cooperation**]({{ site.pdfs }}/talks/2022-03-01-Toulouse/main.pdf) -
 IAST,  &ensp; Toulouse.
 
 <h4>2021</h4>
 <hr>
 
-+ [**Publishing \& Citing Open Research Code**]({{ site.pdfs }}/talks/2021-11-17-Open-Life-Science/main.pdf) -
++ [**Publishing & Citing Open Research Code**]({{ site.pdfs }}/talks/2021-11-17-Open-Life-Science/main.pdf) -
 Open Life Science.
 
 + [**Prisoners, Game Theory & the Axelrod Library**]({{ site.pdfs }}/talks/2021-03-08-PyLadies/main.pdf) -
