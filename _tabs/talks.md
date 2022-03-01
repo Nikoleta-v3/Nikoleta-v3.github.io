@@ -4,6 +4,12 @@ icon: fas fa-list
 order: 4
 ---
 
+<h4>2022</h4>
+<hr>
+
++ [**A computational approach to cooperation**]({{ site.pdfs }}/talks/2021-11-17-Open-Life-Science/main.pdf) -
+IAST,  &ensp; Toulouse.
+
 <h4>2021</h4>
 <hr>
 
