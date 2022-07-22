@@ -7,6 +7,9 @@ order: 4
 <h4>2022</h4>
 <hr>
 
++ [**Evolution of cooperation among individuals with limited payoff memory**]({{ site.pdfs }}/talks/2022-07-20-ICSD/main.pdf) -
+International Conference of Social Dilemmas,  &ensp; Copenhagen.
+
 + [**A computational approach to cooperation**]({{ site.pdfs }}/talks/2022-03-01-Toulouse/main.pdf) -
 IAST,  &ensp; Toulouse.
 
