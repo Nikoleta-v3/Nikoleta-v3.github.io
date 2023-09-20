@@ -30,6 +30,12 @@ Journal of Open Source Software</a>.
 
 🗞️ **Updates:**
 
-- `August 2023:` Update the style of my website.
+- `September 2023:` Co-organised and attended the postDoc retreat (MPI Evolutionary Biology).
+
+- `August 2023:` Update the style of the website!
+
+- `June 2023:` Gave a talk titled "Reactive strategies with longer memory" at Dartmouth University ([Dr Feng Fu's](https://faculty-directory.dartmouth.edu/feng-fu) group).
+
+- `June 2023:` Visited Boston to work with Dr Moshe Hoffman.
 
 - `June 2023:` Visited the [Institute For Advanced Study in Toulouse](https://www.iast.fr).
