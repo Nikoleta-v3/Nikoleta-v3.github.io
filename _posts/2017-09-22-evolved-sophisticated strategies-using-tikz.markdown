@@ -4,6 +4,7 @@ title:  "Representing Evolved Sophisticated strategies using Tikz"
 date:   2017-09-22
 comments: true
 math: true
+categories: articles
 ---
 
 <p align="justify">

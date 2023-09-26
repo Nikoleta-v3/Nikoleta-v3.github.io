@@ -4,6 +4,7 @@ title:  "The power of memory."
 date:   2018-01-05
 comments: true
 math: true
+categories: articles
 ---
 
 In game theory the game the [prisoner's dilemma](https://en.wikipedia.org/wiki/Prisoner%27s_dilemma)

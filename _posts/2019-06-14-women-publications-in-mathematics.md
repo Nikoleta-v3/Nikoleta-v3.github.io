@@ -4,6 +4,7 @@ title:  "Are there publications in Mathematics written only by women?"
 date:   2019-06-26
 comments: True
 math: true
+categories: articles
 ---
 
 <p style='text-align: justify;'> 

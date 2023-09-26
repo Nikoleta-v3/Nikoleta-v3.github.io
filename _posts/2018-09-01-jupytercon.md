@@ -4,6 +4,7 @@ title:  "My experience of JupyterCon 2018."
 date:   2018-09-01
 comments: True
 math: true
+categories: articles
 ---
 
 [Project Jupyter](http://jupyter.org/) is a non profit organisation created to

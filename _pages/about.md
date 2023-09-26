@@ -59,6 +59,7 @@ School of Management and Economy, Technological Educational Institute of Patras
 <h4>Communities</h4>
 <hr>
 
+- PostDoc representative Max Planck Institute for Evolutionary Biology
 - Fellow of the [Software Sustainability Institute (SSI)](https://www.software.ac.uk/)
 - Member of [PyDiff](http://www.pydiff.wales/) and PyData Cardiff
 - Member of [SWORDS](http://www.theorsociety.com/Pages/Regional/swords.aspx) and the OR Society

@@ -3,6 +3,7 @@ layout: post
 title:  "Grudges, War and Game of Thrones"
 comments: true
 math: true
+categories: articles
 ---
 
 <p align="justify">

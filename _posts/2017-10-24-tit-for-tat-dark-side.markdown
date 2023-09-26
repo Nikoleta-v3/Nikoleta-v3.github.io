@@ -4,6 +4,7 @@ title:  "Another side of Tit For Tat. Verifying an article from the 1980s."
 date:   2017-10-24
 comments: true
 math: true
+categories: articles
 ---
 
 <p align="justify">
