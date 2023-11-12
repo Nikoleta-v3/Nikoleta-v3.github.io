@@ -68,18 +68,15 @@ stochastic process, where the players move from state to  state. More specifical
 it can be modelled by the use of a [Markov chain](https://en.wikipedia.org/wiki/Markov_chain),
 which is described by a matrix \\(M\\).
 
-\\[M =
+$$
+M =
 \begin{bmatrix}
-    p_{1} q_{1} & p_{1} (- q_{1} + 1) & q_{1} (- p_{1} + 1) & (- p_{1} + 1) (- q_{1} + 1)
-    \\\
-    p_{2} q_{3} & p_{2} (- q_{3} + 1) & q_{3} (- p_{2} + 1) & (- p_{2} + 1) (- q_{3} + 1)
-    \\\
-    p_{3} q_{2} & p_{3} (- q_{2} + 1) & q_{2} (- p_{3} + 1) & (- p_{3} + 1) (- q_{2} + 1)
-    \\\
+    p_{1} q_{1} & p_{1} (- q_{1} + 1) & q_{1} (- p_{1} + 1) & (- p_{1} + 1) (- q_{1} + 1) \\\
+    p_{2} q_{3} & p_{2} (- q_{3} + 1) & q_{3} (- p_{2} + 1) & (- p_{2} + 1) (- q_{3} + 1) \\\
+    p_{3} q_{2} & p_{3} (- q_{2} + 1) & q_{2} (- p_{3} + 1) & (- p_{3} + 1) (- q_{2} + 1) \\\
     p_{4} q_{4} & p_{4} (- q_{4} + 1) & q_{4} (- p_{4} + 1) & (- p_{4} + 1) (- q_{4} + 1)
-    \\\
 \end{bmatrix}
-\\]
+$$
 
 Our players are assumed to move from each state until the system reaches a
 state steady. Thus in order to calculate the utility of our players we
