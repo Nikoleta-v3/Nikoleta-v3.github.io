@@ -178,7 +178,7 @@ $ git remote set-url origin git@github.com:ThNomiMarks/nomimarks.github.io.git
 
 3. Next, we need to make a few changes to the `_config` file:
 
-   - Change the `domain:` argument to be `nomimarks.github.io` (or your equivalent name).
+   - Change the `baseurl:` argument to be `nomimarks.github.io` (or your equivalent name).
    - Change the `url:` argument to `https://thnomimarks.github.io`.
 
 Now we need to edit the `Gemfile`:

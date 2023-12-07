@@ -27,12 +27,12 @@ Journal of Open Source Software</a>.
 
 🗞️ **Updates:**
 
-- `September 2023:` Co-organized and attended the Postdoc Retreat at MPI
+- 📜 New pre-print: [https://arxiv.org/abs/2311.02365](https://arxiv.org/abs/2311.02365). 
+- 🗓️ Co-organized and attended the Postdoc Retreat at MPI
   Evolutionary Biology.
-- `August 2023:` Updated the style of the website.
-- `June 2023:` Gave a talk titled "Reactive Strategies with Longer Memory" at
+- 💬 Gave a talk titled "Reactive Strategies with Longer Memory" at
   Dartmouth University, hosted by ([Dr Feng
   Fu's](https://faculty-directory.dartmouth.edu/feng-fu) group). group.
-- `June 2023:` Visited Boston to collaborate with Dr. Moshe Hoffman.
-- `June 2023:` Visited the [Institute For Advanced Study in
+- 🧳 Visited Boston to collaborate with Dr. Moshe Hoffman.
+- 🧳 Visited the [Institute For Advanced Study in
   Toulouse](https://www.iast.fr).
