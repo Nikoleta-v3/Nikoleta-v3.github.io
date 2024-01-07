@@ -5,7 +5,7 @@ permalink: /publications/
 ---
 
 
-- Traulsen A., Glynatsi, N. E. **oggmap: a Python package to extract gene ages
+- Ullrich K. K., Glynatsi, N. E. **oggmap: a Python package to extract gene ages
 per orthogroup and link them with single-cell RNA data**. Bioinformatics, (2023). doi:
 [10.1093/bioinformatics/btad657](https://doi.org/10.1093/bioinformatics/btad657).
 
