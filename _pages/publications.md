@@ -5,6 +5,10 @@ permalink: /publications/
 ---
 
 
+- Traulsen A., Glynatsi, N. E. **oggmap: a Python package to extract gene ages
+per orthogroup and link them with single-cell RNA data**. Bioinformatics, (2023). doi:
+[10.1093/bioinformatics/btad657](https://doi.org/10.1093/bioinformatics/btad657).
+
 - Traulsen A., Glynatsi, N. E. **The future of theoretical evolutionary game
 theory**. Philosophical Transactions of the Royal Society B, (2023). doi:
 [10.1098/rstb.2021.0508](https://doi.org/10.1098/rstb.2021.0508).
