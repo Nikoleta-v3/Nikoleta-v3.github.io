@@ -27,6 +27,8 @@ Journal of Open Source Software</a>.
 
 🗞️ **Updates:**
 
+- 📜 New pre-print: [https://arxiv.org/abs/2402.02437](https://arxiv.org/abs/2402.02437). 
+- 💬 Gave an invited talk at the Center for Mathematical Biology, University of Pennsilvanya.
 - 📜 New publication in Bioinformatics: [oggmap: a Python package to extract gene ages per orthogroup and link them with single-cell RNA data](https://doi.org/10.1093/bioinformatics/btad657).
 - 📜 New pre-print: [https://arxiv.org/abs/2311.02365](https://arxiv.org/abs/2311.02365). 
 - 🗓️ Co-organized and attended the Postdoc Retreat at MPI
