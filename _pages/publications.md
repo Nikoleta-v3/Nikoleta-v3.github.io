@@ -53,16 +53,25 @@ doi: [10.5334/jors.125](http://doi.org/10.5334/jors.125).
 
 ### Submitted
 
-- Ullrich, K. K., Glynatsi, N. E., **orthomap: a Python package to extract gene
-ages per orthogroup and link them with single-cell RNA data**. Submitted in
-Bioinformatics.
+- Glynatsi, N. E., Ethan A., Nowak M. A., Hilbe C., **Conditional cooperation
+with longer memory**. [Preprint](https://arxiv.org/abs/2402.02437).
+
+- Glynatsi, N. E., McAvoy A., Hilbe C., **Evolution of reciprocity
+with limited payoff memory**. [Preprint](https://arxiv.org/abs/2311.02365).
+
+- Glynatsi, N. E., Knight V. A. and Harper M, **Properties of Winning
+Iterated Prisoner's Dilemma Strategies**.
+[Preprint](https://arxiv.org/abs/2001.05911).
+
+- Knight V. A., Harper M., Glynatsi, N. E., Gillard J., **Recognising and
+  evaluating the effectiveness of extortion in the Iterated Prisoner’s
+  Dilemma**. [Preprint](https://arxiv.org/abs/1904.00973).
+
 
 ### In preparation
 
-- Glynatsi, N. E. and Knight V. A., **A meta analysis of tournaments and an evaluation of performance in the
-Iterated Prisoner’s Dilemma**.
-[Preprint]().
+- Pal S., Glynatsi, N. E., Hilbe C. **The co-evolution of direct,
+indirect and generalized reciprocity**.
 
-- Knight V. A., Harper M., Glynatsi, N. E.,
-  Gillard J., **Recognising and evaluating the effectiveness of extortion in the Iterated
-  Prisoner’s Dilemma**. [Preprint]().
+- Li J., Glynatsi, N. E., Hilbe C., Xia H. **Tolerance and exploitation
+of cumulative memory strategy in direct reciprocity**.

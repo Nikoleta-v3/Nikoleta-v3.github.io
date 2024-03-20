@@ -27,10 +27,13 @@ Journal of Open Source Software</a>.
 
 🗞️ **Updates:**
 
-- 📜 New pre-print: [https://arxiv.org/abs/2402.02437](https://arxiv.org/abs/2402.02437). 
+- 📜 New pre-print: [Properties of Winning
+Iterated Prisoner's Dilemma Strategies](https://arxiv.org/abs/2402.02437).
+- 📜 New pre-print: [Conditional cooperation
+with longer memory](https://arxiv.org/abs/2001.05911).
 - 💬 Gave an invited talk at the Center for Mathematical Biology, University of Pennsilvanya.
 - 📜 New publication in Bioinformatics: [oggmap: a Python package to extract gene ages per orthogroup and link them with single-cell RNA data](https://doi.org/10.1093/bioinformatics/btad657).
-- 📜 New pre-print: [https://arxiv.org/abs/2311.02365](https://arxiv.org/abs/2311.02365). 
+- 📜 New pre-print: [Evolution of reciprocity with limited payoff memory](https://arxiv.org/abs/2311.02365). 
 - 🗓️ Co-organized and attended the Postdoc Retreat at MPI
   Evolutionary Biology.
 - 💬 Gave a talk titled "Reactive Strategies with Longer Memory" at
