@@ -4,10 +4,27 @@ title: Presentations
 permalink: /presentations/
 ---
 
+(WIP)
+
+<!-- <h4>2024</h4>
+<hr>
+
+
+
+<h4>2023</h4>
+<hr>
+
+
+\item Reactive\(-n\) strategies of direct reciprocity - Research Group of Feng Fu, Dartmouth University 2023.
+
 <h4>2022</h4>
 <hr>
 
-+ [**Evolution of cooperation among individuals with limited payoff memory**]({{ site.pdfs }}/talks/2022-07-20-ICSD/main.pdf) -
++ [**Reactive-n strategies of direct reciprocity**] - International Symposium on Dynamic Games and Applications, Porto 2022.
++ [**A computational approach to cooperation**] - Conference on Complex Systems, Palma de Mallorca 2022.
+
+
++ [**Evolution of cooperation among individuals with limited payoff memory**]({{ site.pdfs }} talks/blob/master/talks/2022-07-20-ICSD/main.pdf) -
 International Conference of Social Dilemmas,  &ensp; Copenhagen.
 
 + [**A computational approach to cooperation**]({{ site.pdfs }}/talks/2022-03-01-Toulouse/main.pdf) -
@@ -97,4 +114,4 @@ Collaborators Workshop, &ensp; Leeds 2017.
 <h4>Three Minute Thesis</h4>
 <hr>
 
-+ [**Would we behave differently if we had the brain of a goldfish?**]({{ site.pdfs }}/3min_thesis/index.html) - School of Mathematics, &ensp; Cardiff University 2019.
++ [**Would we behave differently if we had the brain of a goldfish?**]({{ site.pdfs }}/3min_thesis/index.html) - School of Mathematics, &ensp; Cardiff University 2019. -->

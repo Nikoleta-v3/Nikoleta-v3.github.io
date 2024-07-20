@@ -4,6 +4,10 @@ title: Publications
 permalink: /publications/
 ---
 
+- Glynatsi, N. E., McAvoy A., Hilbe C. **Evolution of reciprocity with limited payoff memory**.
+Proceedings of the Royal Society B, (2024). doi:
+[10.1098/rspb.2023.2493](https://doi.org/10.1098/rspb.2023.2493).
+
 
 - Ullrich K. K., Glynatsi, N. E. **oggmap: a Python package to extract gene ages
 per orthogroup and link them with single-cell RNA data**. Bioinformatics, (2023). doi:
@@ -55,9 +59,6 @@ doi: [10.5334/jors.125](http://doi.org/10.5334/jors.125).
 
 - Glynatsi, N. E., Ethan A., Nowak M. A., Hilbe C., **Conditional cooperation
 with longer memory**. [Preprint](https://arxiv.org/abs/2402.02437).
-
-- Glynatsi, N. E., McAvoy A., Hilbe C., **Evolution of reciprocity
-with limited payoff memory**. [Preprint](https://arxiv.org/abs/2311.02365).
 
 - Glynatsi, N. E., Knight V. A. and Harper M, **Properties of Winning
 Iterated Prisoner's Dilemma Strategies**.
