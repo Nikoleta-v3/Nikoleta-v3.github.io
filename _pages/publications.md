@@ -3,6 +3,10 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
+- V. A, Knight, M. Harper, N. E. Glynatsi, J. Gillard **Recognising and evaluating the effectiveness of extortion in the Iterated Prisoner’s Dilemma**.
+PloS one, (2024). doi:
+[10.1371/journal.pone.0304641](https://doi.org/10.1371/journal.pone.0304641).
+
 
 - Glynatsi, N. E., McAvoy A., Hilbe C. **Evolution of reciprocity with limited payoff memory**.
 Proceedings of the Royal Society B, (2024). doi:
@@ -63,10 +67,6 @@ with longer memory**. [Preprint](https://arxiv.org/abs/2402.02437).
 - Glynatsi, N. E., Knight V. A. and Harper M, **Properties of Winning
 Iterated Prisoner's Dilemma Strategies**.
 [Preprint](https://arxiv.org/abs/2001.05911).
-
-- Knight V. A., Harper M., Glynatsi, N. E., Gillard J., **Recognising and
-  evaluating the effectiveness of extortion in the Iterated Prisoner’s
-  Dilemma**. [Preprint](https://arxiv.org/abs/1904.00973).
 
 
 ### In preparation
