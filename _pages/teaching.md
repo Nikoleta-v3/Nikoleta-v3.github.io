@@ -30,6 +30,9 @@ Initiative](https://bhki.org).
 
 ### Workshops at Computer Conferences
 
+- A Hitchhiker's Guide to Contributing to Open Source, EuroSciPy 2024.
+Online material: [https://github.com/Nikoleta-v3/HitchCos](https://github.com/Nikoleta-v3/HitchCos).
+
 - Couched Django Girls UK, Django Girls Manchester and  Django Girls Birmingham.
 Django Girls is. Django Girls online material: [https://tutorial.djangogirls.org/en/](https://tutorial.djangogirls.org/en/).
 

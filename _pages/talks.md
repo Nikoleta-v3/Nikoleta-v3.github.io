@@ -4,7 +4,34 @@ title: Presentations
 permalink: /presentations/
 ---
 
-(WIP)
+### Invited Presentations
+
+
+- Limited information and the effects on the evolution of cooperation​.
+  [AMETHYST: gAME THeorY in complex SysTems](https://amethystsatellite.weebly.com). 2024. [📽️](../presentations/AMETHYST.pdf)
+
+- Learning in Games​.
+  [International Symposium on Dynamic Games and Applications](https://www.gerad.ca/colloques/isdg2024/). 2024. [📽️](../presentations/LearningInGames.pdf)
+
+- Exploring cognitive constraints in models of direct reciprocity.
+  Virtual Workshop on Evolutionary Game Theory. 2023. [📽️](../presentations/EvolGameTheory.pdf)
+
+- A computational approach to cooperation. Institute For Advanced Study in Toulouse. 2023. [📽️](../presentations/Toulouse.pdf)
+
+- A bibliometric study of a research field.
+  [PyData UK Meetup](https://www.youtube.com/watch?v=r_0hLCnbyXM). 2020. [📽️](../presentations/PyDataUK.pdf)
+
+- Understanding responses to environments for the Prisoner’s Dilemma.
+  Max Planck Institute of Evolutionary Biology. 2020. [📽️](../presentations/MaxPlanck.pdf)
+
+- The Fallacy of Meritocracy. [PyCon Balkan](https://conference.pyconbalkan.com). 2019. [📽️](../presentations/PyConBalkan.pdf)
+
+- How does a smile make a difference? [PyCon UK](https://www.python.org/events/python-events/676/). 2018. [📽️](../presentations/PyConUK/index.html)
+
+
+<!-- ### Presentations -->
+
+
 
 <!-- <h4>2024</h4>
 <hr>
