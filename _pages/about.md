@@ -4,6 +4,25 @@ title:
 permalink: /about/
 ---
 
+<h4>Academic Positions</h4>
+
+<hr>
+<p>
+    <span> <b>Research Scientist</b> </span>
+    <span style="float:right;">2024-</span>
+    <div class="clearix"></div>
+</p>
+
+Discrete Event Simulation Research Team, RIKEN Center for Computational Science
+
+<p>
+    <span> <b>Postdoctor Researcher</b> </span>
+    <span style="float:right;">2020-2024</span>
+    <div class="clearix"></div>
+</p>
+
+Research Group Dynamics of Social Behavior, Max Planck Institute for Evolutionary Biology
+
 <h4>Education</h4>
 <hr>
 <p>

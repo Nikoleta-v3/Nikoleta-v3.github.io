@@ -4,29 +4,45 @@ title: Presentations
 permalink: /presentations/
 ---
 
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
 ### Invited Presentations
 
+- Conditional cooperation with longer memory​.
+  [Workshop on Computational Social Science: Methods and Applications](https://ccss.kobe-u.ac.jp/event/seminar_all/2024/202412261300.html). 2024.
+  <a href="../presentations/AMETHYST.pdf"><i class="fa fa-sliders"></i>
 
 - Limited information and the effects on the evolution of cooperation​.
-  [AMETHYST: gAME THeorY in complex SysTems](https://amethystsatellite.weebly.com). 2024. [📽️](../presentations/AMETHYST.pdf)
+  [AMETHYST: gAME THeorY in complex SysTems](https://amethystsatellite.weebly.com). 2024.
+  <a href="../presentations/AMETHYST.pdf"><i class="fa fa-sliders"></i>
 
 - Learning in Games​.
-  [International Symposium on Dynamic Games and Applications](https://www.gerad.ca/colloques/isdg2024/). 2024. [📽️](../presentations/LearningInGames.pdf)
+  [International Symposium on Dynamic Games and Applications](https://www.gerad.ca/colloques/isdg2024/). 2024.
+  <a href="../presentations/LearningInGames.pdf"><i class="fa fa-sliders"></i>
 
 - Exploring cognitive constraints in models of direct reciprocity.
-  Virtual Workshop on Evolutionary Game Theory. 2023. [📽️](../presentations/EvolGameTheory.pdf)
+  Virtual Workshop on Evolutionary Game Theory. 2023.
+  <a href="../presentations/EvolGameTheory.pdf"><i class="fa fa-sliders"></i>
 
-- A computational approach to cooperation. Institute For Advanced Study in Toulouse. 2023. [📽️](../presentations/Toulouse.pdf)
+- A computational approach to cooperation. Institute For Advanced Study in Toulouse. 2023.
+  <a href="../presentations/Toulouse.pdf"><i class="fa fa-sliders"></i>
 
 - A bibliometric study of a research field.
-  [PyData UK Meetup](https://www.youtube.com/watch?v=r_0hLCnbyXM). 2020. [📽️](../presentations/PyDataUK.pdf)
+  [PyData UK Meetup](https://www.youtube.com/watch?v=r_0hLCnbyXM). 2020.
+    <a href="../presentations/PyDataUK.pdf"><i class="fa fa-sliders"></i>
 
 - Understanding responses to environments for the Prisoner’s Dilemma.
-  Max Planck Institute of Evolutionary Biology. 2020. [📽️](../presentations/MaxPlanck.pdf)
+  Max Planck Institute of Evolutionary Biology. 2020.
+  <a href="../presentations/MaxPlanck.pdf"><i class="fa fa-sliders"></i>
 
-- The Fallacy of Meritocracy. [PyCon Balkan](https://conference.pyconbalkan.com). 2019. [📽️](../presentations/PyConBalkan.pdf)
+- The Fallacy of Meritocracy. [PyCon Balkan](https://conference.pyconbalkan.com). 2019.
+  <a href="../presentations/PyConBalkan.pdf"><i class="fa fa-sliders"></i>
 
-- How does a smile make a difference? [PyCon UK](https://www.python.org/events/python-events/676/). 2018. [📽️](../presentations/PyConUK/index.html)
+- How does a smile make a difference? [PyCon UK](https://www.python.org/events/python-events/676/). 2018.
+  <a href="../presentations/PyConUK/index.html"><i class="fa fa-sliders"></i>
 
 
 <!-- ### Presentations -->

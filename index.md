@@ -3,11 +3,17 @@ layout: default
 ---
 
 <p style='text-align: justify;'>
-I am an applied mathematician and research software developer, currently
-employed as a postdoc in the research group <a
-href="http://web.evolbio.mpg.de/social-behaviour/">Dynamics of Social
-Behavior</a>.
+I am an applied mathematician and research software developer, currently employed
+as a research scientist in the discrete event simulation research team at the
+<a href="https://www.r-ccs.riken.jp/en/">RIKEN Center for Computational Science</a>.
 </p>
+
+<p style='text-align: justify;'>
+Previously, I was a postdoctoral researcher in the research group <a
+href="http://web.evolbio.mpg.de/social-behaviour/">Dynamics of Social
+Behavior</a>. I received my PhD from the School of Mathematics at Cardiff University.
+</p>
+
 
 <p style='text-align: justify;'>
 My research interests encompass the utilization of game theoretic modeling,
@@ -26,6 +32,10 @@ Journal of Open Source Software</a>.
 ------------------------------------------------------------------------------
 
 🗞️ **Updates:**
+- 💬 Gave an invited presentation at the [Workshop on Computational Social Science: Methods and Applications](https://ccss.kobe-u.ac.jp/event/seminar_all/2024/202412261300.html).
+- 📜 New paper: [Properties of winning Iterated Prisoner’s Dilemma strategies](https://doi.org/10.1371/journal.pcbi.1012644) at PLOS Computational Biology.
+- 📜 New pre-print: [The co-evolution of direct, indirect and generalized reciprocity](https://arxiv.org/abs/2411.03488).
+- 📜 New paper: [Conditional cooperation with longer memory](https://doi.org/10.1073/pnas.2420125121) at PNAS.
 - 📜 New paper: [Recognising and evaluating the effectiveness of extortion in the Iterated Prisoner’s Dilemma](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0304641) at PloS one.
 - 💬 Gave an invited presentation at the [AMETHYST: gAME THeorY in complex SysTems](https://amethystsatellite.weebly.com).
 - 💬 Delivered a workshop at [EuroSciPy 2024](https://euroscipy.org/2024/).
@@ -33,8 +43,6 @@ Journal of Open Source Software</a>.
 - 💬 Gave an invited presentation at the [International Symposium on Dynamic Games and Applications](https://www.gerad.ca/colloques/isdg2024/).
 - 💬 Gave a presentation at the [International Conference on Social Dilemmas](https://socialdilemma.com/icsd2024/).
 - 📜 New paper: [Evolution of reciprocity with limited payoff memory](https://royalsocietypublishing.org/doi/10.1098/rspb.2023.2493) at Proceedings of Royal Society B.
-- 📜 New pre-print: [Properties of Winning
-Iterated Prisoner's Dilemma Strategies](https://arxiv.org/abs/2402.02437).
 
 <!-- - 📜 New pre-print: [Conditional cooperation
 with longer memory](https://arxiv.org/abs/2001.05911). -->
