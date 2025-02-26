@@ -4,14 +4,16 @@ permalink: /teaching/
 title: Teaching
 ---
 
-### Lectures
+<h4> Lectures </h4>
+<hr>
 
 - Delivered three lectures (Solving ODE models numerically in Python, Data
 Scraping & Plotting, and Epidemiological fitting) as part of the course
 “Mathematical biology in action during the Corona pandemic ” at University of
 Lübeck.
 
-### Online Lectures
+<h4> Online Lectures </h4>
+<hr>
 
 - Delivered a lecture titled "Publishing & Citing Open Research Code" as part of the
   [Open Life Science’s](https://openlifesci.org) program.
@@ -20,7 +22,8 @@ Lübeck.
 approach" as part of a FAIR symposium at the [Bioinformatics Hub of Kenya
 Initiative](https://bhki.org).
 
-### Research Software Development Workshops
+<h4> Research Software Development Workshops </h4>
+<hr>
 
 - Aimed at researcher in the Max Planck Institute
   for Evolutionary Biology: [https://github.com/Nikoleta-v3/rsd-workshop](https://github.com/Nikoleta-v3/rsd-workshop).
@@ -28,7 +31,8 @@ Initiative](https://bhki.org).
 -  Aimed at PhD candidates in the Mathematics Department,
   Cardiff University. Material: [https://vknight.org/rsd/](https://vknight.org/rsd/).
 
-### Workshops at Computer Conferences
+<h4> Workshops at Computer Conferences </h4>
+<hr>
 
 - A Hitchhiker's Guide to Contributing to Open Source, EuroSciPy 2024.
 Online material: [https://github.com/Nikoleta-v3/HitchCos](https://github.com/Nikoleta-v3/HitchCos).
@@ -44,7 +48,8 @@ and paper: [https://jose.theoj.org/papers/10.21105/jose.00078](https://jose.theo
 
 
 
-### Online Tutorial
+<h4> Online Tutorial </h4>
+<hr>
 
 - A collection of examples and tutorials for techniques
   - [Presentation with Latex](https://github.com/Nikoleta-v3/talks/tree/master/lightning-talks/presentation%20with%20Latex)

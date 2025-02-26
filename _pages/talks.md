@@ -9,7 +9,8 @@ permalink: /presentations/
 </head>
 
 
-### Invited Presentations
+<h4> Invited Presentations </h4>
+<hr>
 
 - Conditional cooperation with longer memory​.
   [Workshop on Computational Social Science: Methods and Applications](https://ccss.kobe-u.ac.jp/event/seminar_all/2024/202412261300.html). 2024.

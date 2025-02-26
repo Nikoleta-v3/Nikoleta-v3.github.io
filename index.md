@@ -3,26 +3,24 @@ layout: default
 ---
 
 <p style='text-align: justify;'>
-I am an applied mathematician and research software developer, currently employed
-as a research scientist in the discrete event simulation research team at the
+I am an applied mathematician and research software developer, currently working
+as a research scientist in the Discrete Event Simulation research team at the
 <a href="https://www.r-ccs.riken.jp/en/">RIKEN Center for Computational Science</a>.
 </p>
 
 <p style='text-align: justify;'>
-Previously, I was a postdoctoral researcher in the research group <a
+Previously, I was a postdoctoral researcher in the <a
 href="http://web.evolbio.mpg.de/social-behaviour/">Dynamics of Social
-Behavior</a>. I received my PhD from the School of Mathematics at Cardiff University.
-</p>
-
-
-<p style='text-align: justify;'>
-My research interests encompass the utilization of game theoretic modeling,
-numerical simulations, and data analysis to gain insights into behavior within
-social dilemmas and various scientific fields.
+Behavior</a> research group. I earned my PhD from the School of Mathematics at Cardiff University.
 </p>
 
 <p style='text-align: justify;'>
-In addition to my research, I actively contribute to open-source projects. I am
+My research focuses on applying game-theoretic modeling, agent based simulations,
+and data analysis to understand behavior in social dilemmas and various scientific fields.
+</p>
+
+<p style='text-align: justify;'>
+Beyond my research, I actively contribute to open-source projects. I am
 a fellow of the <a href="https://www.software.ac.uk">Software
 Sustainability Institute</a> and serve as a
 topic editor for the <a href="https://joss.theoj.org">
