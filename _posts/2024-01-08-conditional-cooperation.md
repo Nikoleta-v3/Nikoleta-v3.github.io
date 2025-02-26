@@ -5,6 +5,9 @@ date:   2025-01-08
 comments: True
 math: true
 categories: articles
+image:
+  path: *image
+  teaser: conditional_cooperation_with_longer_mem.png
 ---
 
 <p style='text-align: justify;'> 

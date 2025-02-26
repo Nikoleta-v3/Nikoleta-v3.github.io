@@ -9,7 +9,7 @@ permalink: /about/
 <hr>
 <p>
     <span> <b>Research Scientist</b> </span>
-    <span style="float:right;">2024-</span>
+    <span style="float:right;">2025-current</span>
     <div class="clearix"></div>
 </p>
 

@@ -5,6 +5,9 @@ date:   2019-06-26
 comments: True
 math: true
 categories: articles
+image:
+  path: *image
+  teaser: number_of_authors_per_year.png
 ---
 
 <p style='text-align: justify;'> 

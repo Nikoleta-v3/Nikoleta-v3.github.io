@@ -5,6 +5,9 @@ date:   2024-06-04
 comments: True
 math: true
 categories: articles
+image:
+  path: *image
+  teaser: limited_memory.png
 ---
 
 <p style='text-align: justify;'> 
