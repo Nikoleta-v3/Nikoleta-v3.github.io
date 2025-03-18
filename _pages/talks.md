@@ -12,6 +12,10 @@ permalink: /presentations/
 <h4> Invited Presentations </h4>
 <hr>
 
+- Best responses in repeated games. Reactive strategies with longer memory.​
+  [LEG Seminar](https://thelegproject.wordpress.com/leg-seminar/). 2025.
+  <a href="../presentations/LEG2025.pdf"><i class="fa fa-sliders"></i>
+
 - Conditional cooperation with longer memory​.
   [Workshop on Computational Social Science: Methods and Applications](https://ccss.kobe-u.ac.jp/event/seminar_all/2024/202412261300.html). 2024.
   <a href="../presentations/AMETHYST.pdf"><i class="fa fa-sliders"></i>

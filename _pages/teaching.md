@@ -4,6 +4,19 @@ permalink: /teaching/
 title: Teaching
 ---
 
+<h4> Current Students </h4>
+<hr>
+
+- [Franziska Lesigang](../students/franziska_lesigang.md) (MSc Student). *Thesis title:*  Nash equilibria in finite action games with conditional strategies.
+
+- [Cory Seelenfreund](../students/cory_seelenfreund.md) (New Rochelle High School). *Project title:* Human reciprocity with memory based strategies: An analysis using game theoretic models.
+
+<h4> Past Students </h4>
+<hr>
+
+- [Vivien Kleinow](../students/vivien_kleinow.md) (MSc Student). *Thesis title:*  Mapping Computational Neuroscience: exploring topics and evolution through scientometrics.
+  - *Last known coordinates*:	PhD student at Hamburg University of Technology, Germany.
+
 <h4> Lectures </h4>
 <hr>
 

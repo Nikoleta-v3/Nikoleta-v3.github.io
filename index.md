@@ -30,6 +30,7 @@ Journal of Open Source Software</a>.
 ------------------------------------------------------------------------------
 
 🗞️ **Updates:**
+- 💬 Gave an invited presentation at the [LEG Seminar](https://thelegproject.wordpress.com/leg-seminar/).
 - 💬 Gave an invited presentation at the [Workshop on Computational Social Science: Methods and Applications](https://ccss.kobe-u.ac.jp/event/seminar_all/2024/202412261300.html).
 - 📜 New paper: [Properties of winning Iterated Prisoner’s Dilemma strategies](https://doi.org/10.1371/journal.pcbi.1012644) at PLOS Computational Biology.
 - 📜 New pre-print: [The co-evolution of direct, indirect and generalized reciprocity](https://arxiv.org/abs/2411.03488).
