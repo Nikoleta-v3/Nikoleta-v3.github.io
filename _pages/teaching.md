@@ -11,38 +11,25 @@ title: Teaching
 
 - [Cory Seelenfreund](../students/cory_seelenfreund.md) (New Rochelle High School). *Project title:* Human reciprocity with memory based strategies: An analysis using game theoretic models.
 
-<h4> Past Students </h4>
-<hr>
-
 - [Vivien Kleinow](../students/vivien_kleinow.md) (MSc Student). *Thesis title:*  Mapping Computational Neuroscience: exploring topics and evolution through scientometrics.
   - *Last known coordinates*:	PhD student at Hamburg University of Technology, Germany.
 
-<h4> Lectures </h4>
+<h4> Lectures & Online Lectures</h4>
 <hr>
 
-- Delivered three lectures (Solving ODE models numerically in Python, Data
-Scraping & Plotting, and Epidemiological fitting) as part of the course
-“Mathematical biology in action during the Corona pandemic ” at University of
+- Delivered a lecture titled *"The prisoner's dilemma and computer tournaments"* as part of the
+  a game theory course at the Ukrainian Catholic University
+
+- Delivered three lectures (Solving ODE models numerically in Python, Data Scraping & Plotting,
+and Epidemiological fitting) as part of the course
+*"Mathematical biology in action during the Corona pandemic"* at University of
 Lübeck.
 
-<h4> Online Lectures </h4>
-<hr>
-
-- Delivered a lecture titled "Publishing & Citing Open Research Code" as part of the
+- Delivered a lecture titled *"Publishing & Citing Open Research Code"* as part of the
   [Open Life Science’s](https://openlifesci.org) program.
 
-- Delivered a lecture titled "Contribution to open source projects: a practical
-approach" as part of a FAIR symposium at the [Bioinformatics Hub of Kenya
-Initiative](https://bhki.org).
-
-<h4> Research Software Development Workshops </h4>
-<hr>
-
-- Aimed at researcher in the Max Planck Institute
-  for Evolutionary Biology: [https://github.com/Nikoleta-v3/rsd-workshop](https://github.com/Nikoleta-v3/rsd-workshop).
-
--  Aimed at PhD candidates in the Mathematics Department,
-  Cardiff University. Material: [https://vknight.org/rsd/](https://vknight.org/rsd/).
+- Delivered a lecture titled *"Contribution to open source projects: a practical approach"*
+as part of a FAIR symposium at the [Bioinformatics Hub of Kenya Initiative](https://bhki.org).
 
 <h4> Workshops at Computer Conferences </h4>
 <hr>
@@ -59,6 +46,15 @@ Django Girls is. Django Girls online material: [https://tutorial.djangogirls.org
 [https://github.com/Nikoleta-v3/Game-Theory-and-Python](https://github.com/Nikoleta-v3/Game-Theory-and-Python)
 and paper: [https://jose.theoj.org/papers/10.21105/jose.00078](https://jose.theoj.org/papers/10.21105/jose.00078).
 
+
+<h4> Research Software Development Workshops </h4>
+<hr>
+
+- Aimed at researcher in the Max Planck Institute
+  for Evolutionary Biology: [https://github.com/Nikoleta-v3/rsd-workshop](https://github.com/Nikoleta-v3/rsd-workshop).
+
+-  Aimed at PhD candidates in the Mathematics Department,
+  Cardiff University. Material: [https://vknight.org/rsd/](https://vknight.org/rsd/).
 
 
 <h4> Online Tutorial </h4>

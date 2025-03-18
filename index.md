@@ -56,3 +56,10 @@ with longer memory](https://arxiv.org/abs/2001.05911). -->
 - 🧳 Visited Boston to collaborate with Dr. Moshe Hoffman.
 - 🧳 Visited the [Institute For Advanced Study in
   Toulouse](https://www.iast.fr). -->
+
+
+<!-- <p align="center">
+  <img src="../assets/images/the_chess_players.jpg" style='height: 30%; width: 40%; object-fit: contain'>
+</p>
+
+The Chess Players - Ernest Meissonier.  Hamburg Kunsthalle -->
