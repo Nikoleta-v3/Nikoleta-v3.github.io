@@ -24,6 +24,7 @@ Discrete Event Simulation Research Team, RIKEN Center for Computational Science
 Research Group Dynamics of Social Behavior, Max Planck Institute for Evolutionary Biology
 
 <h4>Skills </h4>
+<hr>
 <ul>
   <li><strong>Programming Languages:</strong> Python, C/C++, R, MATLAB, SQL, SAS</li>
   <li><strong>Operating systems:</strong> Linux, Mac OS, Windows</li>
