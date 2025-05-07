@@ -6,13 +6,11 @@ title: "Franziska Lesigang"
 <h1>Franziska Lesigang</h1>
 
 Franziska visited and joined the *Group Dynamics of Social Behaviour* in August
-and September 2024 for an internship
-and was co-supervised by me and Dr. Christian Hilbe.
+until September 2024 for an internship and was co-supervised by me and Dr. Christian Hilbe.
 
 Following the internship, Franziska worked with us on her master's thesis titled
 *"Nash Equilibria in Finite Action Games with Conditional Strategies"*.
-She primarily focused on reactive strategies in iterated games with multiple
-actions.
+She primarily focused on reactive strategies in iterated games with multiple actions.
 
 Check out more on her personal website: [https://franzilesi.github.io](https://franzilesi.github.io).
 

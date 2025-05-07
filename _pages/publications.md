@@ -8,6 +8,8 @@ permalink: /publications/
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+- F. Lesigang, C. Hilbe, N. E. Glynatsi.[**Can I afford to remember less than you? Best responses in repeated additive games.**](https://doi.org/10.1371/journal.pcbi.1012644). 2025. *Economics Letters* <a href="papers/LesigangEcon2025.pdf"><i class="fa fa-file-pdf-o"></i>
+
 - N. E. Glynatsi, V. A. Knight, M. Harper [**Properties of winning Iterated Prisoner's Dilemma strategies**](https://doi.org/10.1371/journal.pcbi.1012644). 2024. *PLOS Computational Biology* <a href="../publications/Glynatsi2024PLOSCompBio.pdf"><i class="fa fa-file-pdf-o"></i></a>
 
 - N. E. Glynatsi, E. Akin, M. A. Nowak, C. Hilbe [**Conditional cooperation with longer memory**](https://doi.org/10.1073/pnas.2420125121). 2024. *Proceedings of the National Academy of Sciences* <a href="../publications/Glynatsi2024PNAS.pdf"><i class="fa fa-file-pdf-o"></i></a>
