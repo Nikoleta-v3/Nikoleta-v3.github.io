@@ -23,6 +23,16 @@ Discrete Event Simulation Research Team, RIKEN Center for Computational Science
 
 Research Group Dynamics of Social Behavior, Max Planck Institute for Evolutionary Biology
 
+<h4>Skills </h4>
+<ul>
+  <li><strong>Programming Languages:</strong> Python, C/C++, R, MATLAB, SQL, SAS</li>
+  <li><strong>Operating systems:</strong> Linux, Mac OS, Windows</li>
+  <li><strong>Software development tools:</strong> git, automated testing, continuous integration</li>
+  <li><strong>Markup Language:</strong> HTML, LATEX, Markdown</li>
+</ul>
+
+
+
 <h4>Education</h4>
 <hr>
 <p>
@@ -62,6 +72,8 @@ School of Management and Economy, Technological Educational Institute of Patras
 - Thesis Mark: 10/10
 - GPA: 7.8/10
 - Intership: Registry Office Assistant
+
+
 
 <h4>Funding</h4>
 <hr>
