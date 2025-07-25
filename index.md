@@ -30,6 +30,8 @@ Journal of Open Source Software</a>.
 ------------------------------------------------------------------------------
 
 🗞️ **Updates:**
+- 💬 Gave an invited presentation at the [EGAI](https://egai.cc).
+- 💬 Gave an invited tutorial on Game Theory with Python at the [EGAI](https://egai.cc).
 - 📜 New paper: [Can I afford to remember less than you? Best responses in repeated additive games](https://www.sciencedirect.com/science/article/pii/S0165176525001375) at Economic Letters.
 - 💬 Gave an invited presentation at the [LEG Seminar](https://thelegproject.wordpress.com/leg-seminar/).
 - 💬 Gave an invited presentation at the [Workshop on Computational Social Science: Methods and Applications](https://ccss.kobe-u.ac.jp/event/seminar_all/2024/202412261300.html).

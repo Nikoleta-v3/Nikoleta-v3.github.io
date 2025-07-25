@@ -12,6 +12,14 @@ permalink: /presentations/
 <h4> Invited Presentations </h4>
 <hr>
 
+- ​Limited information and the effects on the evolution of cooperation.
+  [EGAI (Evolutionary Game Theory and Artificial Intelligence Conference)](https://egai.cc). 2025.
+  <a href="../presentations/EGAI2025.pdf"><i class="fa fa-sliders"></i>
+
+- ​Game theory and Python: A tutorial on open-source tools for repeated games
+  [EGAI (Evolutionary Game Theory and Artificial Intelligence Conference)](https://egai.cc). 2025.
+  <a href="../presentations/EGAITutorial2025.pdf"><i class="fa fa-sliders"></i>
+
 - Best responses in repeated games. Reactive strategies with longer memory.​
   [LEG Seminar](https://thelegproject.wordpress.com/leg-seminar/). 2025.
   <a href="../presentations/LEG2025.pdf"><i class="fa fa-sliders"></i>
