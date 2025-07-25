@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 ---
 
-<h4> Current Students </h4>
+<h4> Students </h4>
 <hr>
 
 - [Franziska Lesigang](../students/franziska_lesigang.md) (MSc Student). *Thesis title:*  Nash equilibria in finite action games with conditional strategies.

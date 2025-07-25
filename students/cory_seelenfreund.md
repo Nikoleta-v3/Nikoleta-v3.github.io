@@ -17,3 +17,6 @@ place in Mathematics.
 
 Cory was selected as one of only 20 finalists out of 800 participants to advance
 to the Regeneron International Science & Engineering Fair.
+
+At Regeneron International Science & Engineering Fair Cory won first prize
+in the Mathematical Sciences category.
