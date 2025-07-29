@@ -30,6 +30,7 @@ Journal of Open Source Software</a>.
 ------------------------------------------------------------------------------
 
 🗞️ **Updates:**
+- 💬 Gave a lecture at a summer school on game theory: [https://game-theory-school.kse.ua](https://game-theory-school.kse.ua)
 - 💬 Gave an invited presentation at the [EGAI](https://egai.cc).
 - 💬 Gave an invited tutorial on Game Theory with Python at the [EGAI](https://egai.cc).
 - 📜 New paper: [Can I afford to remember less than you? Best responses in repeated additive games](https://www.sciencedirect.com/science/article/pii/S0165176525001375) at Economic Letters.

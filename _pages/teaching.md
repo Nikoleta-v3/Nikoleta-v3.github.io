@@ -17,6 +17,10 @@ title: Teaching
 <h4> Lectures & Online Lectures</h4>
 <hr>
 
+- Delivered a lecture titled *"A computational approach to cooperation"* at a
+[summer school on game theory](https://game-theory-school.kse.ua) in Kyiv. Material
+are available at: [Nikoleta-v3/Game-theory-summer-school-Kyiv](https://github.com/Nikoleta-v3/Game-theory-summer-school-Kyiv)
+
 - Delivered a lecture titled *"The prisoner's dilemma and computer tournaments"* as part of the
   a game theory course at the Ukrainian Catholic University
 
