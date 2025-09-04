@@ -9,14 +9,9 @@ Cory is a high school student at New Rochelle High School in New York. In the
 summer of 2024, he worked for the New Rochelle Science Research Program on
 ``Strategy Dynamics Related to Memory and Selfishness''.
 
-Cory presented the results of his project at WESEF, the Regeneron Westchester
-Science & Engineering Fair. This fair brings together students from Westchester
-and Putnam counties in New York State, where they compete in various fields.
-Cory presented his work in the Mathematical Sciences category and won first
-place in Mathematics.
-
-Cory was selected as one of only 20 finalists out of 800 participants to advance
-to the Regeneron International Science & Engineering Fair.
-
-At Regeneron International Science & Engineering Fair Cory won first prize
-in the Mathematical Sciences category.
+Cory won first prize in mathematics at the Regeneron Westchester Science &
+Engineering Fair, which qualified him for the pres- tigious International
+Science & Engineering Fair (ISEF). At ISEF, he again won first prize in
+mathematics and additionally received the ``Peggy Scripps Award for Science
+Communication'' one of the top awards across disciplines. This award included a
+$10,000 scholarship to support his future tuition.

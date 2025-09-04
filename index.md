@@ -36,6 +36,7 @@ Journal of Open Source Software</a>.
 ------------------------------------------------------------------------------
 
 🗞️ **Updates:**
+- 💬 Gave an invited presentation at the [RHINO](https://apctp.org/theme/d/html/activities/activities01_read-pop.php?id=2235&m_id=884).
 - 💬 Gave a lecture at a summer school on game theory: [https://game-theory-school.kse.ua](https://game-theory-school.kse.ua)
 - 💬 Gave an invited presentation at the [EGAI](https://egai.cc).
 - 💬 Gave an invited tutorial on Game Theory with Python at the [EGAI](https://egai.cc).
