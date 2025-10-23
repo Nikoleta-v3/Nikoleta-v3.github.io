@@ -9,7 +9,17 @@ permalink: /about/
 <hr>
 <p>
     <span> <b>Research Scientist</b> </span>
-    <span style="float:right;">2025-current</span>
+    <span style="float:right;">Jan. 2025-current</span>
+    <div class="clearix"></div>
+</p>
+
+Mathematical Social Science Team, RIKEN Center for Interdisciplinary Theoretical and Mathematical Sciences (iTHEMS)
+
+
+<hr>
+<p>
+    <span> <b>Research Scientist</b> </span>
+    <span style="float:right;">Sept. 2025-current</span>
     <div class="clearix"></div>
 </p>
 

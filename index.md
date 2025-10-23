@@ -2,10 +2,12 @@
 layout: default
 ---
 
-<p style='text-align: justify;'>
+<p style="text-align: justify;">
 I am an applied mathematician and research software developer, currently working
-as a research scientist in the Discrete Event Simulation research team at the
+as a research scientist in the Discrete Event Simulation Research Team at the
 <a href="https://www.r-ccs.riken.jp/en/">RIKEN Center for Computational Science</a>.
+I am also affiliated with the Mathematical Social Science Team at the
+RIKEN Center for Interdisciplinary Theoretical and Mathematical Sciences (iTHEMS).
 </p>
 
 <p style='text-align: justify;'>
