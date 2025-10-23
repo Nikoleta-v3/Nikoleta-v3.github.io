@@ -12,6 +12,11 @@ permalink: /presentations/
 <h4> Invited Presentations </h4>
 <hr>
 
+
+- ​Teaching Unselfishness.
+  [RHINO (APCTP/G-LAMP Workshop on the Roles of Heterogeneity in Nonequilibrium)](https://egai.cc). 2025.
+  <!-- <a href="../presentations/EGAI2025.pdf"><i class="fa fa-sliders"></i> -->
+
 - ​Limited information and the effects on the evolution of cooperation.
   [EGAI (Evolutionary Game Theory and Artificial Intelligence Conference)](https://egai.cc). 2025.
   <a href="../presentations/EGAI2025.pdf"><i class="fa fa-sliders"></i>
