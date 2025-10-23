@@ -36,6 +36,8 @@ Journal of Open Source Software</a>.
 ------------------------------------------------------------------------------
 
 🗞️ **Updates:**
+- 📜 New pre-print: [Reviving, reproducing, and revisiting Axelrod's second tournament](https://arxiv.org/abs/2510.15438).
+- 📜 New pre-print: [Exact conditions for evolutionary stability in indirect reciprocity under noise](https://arxiv.org/abs/2509.08006).
 - 💬 Gave an invited presentation at the [RHINO](https://apctp.org/theme/d/html/activities/activities01_read-pop.php?id=2235&m_id=884).
 - 💬 Gave a lecture at a summer school on game theory: [https://game-theory-school.kse.ua](https://game-theory-school.kse.ua)
 - 💬 Gave an invited presentation at the [EGAI](https://egai.cc).
@@ -43,7 +45,7 @@ Journal of Open Source Software</a>.
 - 📜 New paper: [Can I afford to remember less than you? Best responses in repeated additive games](https://www.sciencedirect.com/science/article/pii/S0165176525001375) at Economic Letters.
 - 💬 Gave an invited presentation at the [LEG Seminar](https://thelegproject.wordpress.com/leg-seminar/).
 - 💬 Gave an invited presentation at the [Workshop on Computational Social Science: Methods and Applications](https://ccss.kobe-u.ac.jp/event/seminar_all/2024/202412261300.html).
-- 📜 New paper: [Properties of winning Iterated Prisoner’s Dilemma strategies](https://doi.org/10.1371/journal.pcbi.1012644) at PLOS Computational Biology.
+<!-- - 📜 New paper: [Properties of winning Iterated Prisoner’s Dilemma strategies](https://doi.org/10.1371/journal.pcbi.1012644) at PLOS Computational Biology.
 - 📜 New pre-print: [The co-evolution of direct, indirect and generalized reciprocity](https://arxiv.org/abs/2411.03488).
 - 📜 New paper: [Conditional cooperation with longer memory](https://doi.org/10.1073/pnas.2420125121) at PNAS.
 - 📜 New paper: [Recognising and evaluating the effectiveness of extortion in the Iterated Prisoner’s Dilemma](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0304641) at PloS one.
@@ -52,7 +54,7 @@ Journal of Open Source Software</a>.
 - 💬 Gave a presentation at the [Mathematical Models in Ecology and Evolution](https://ps-mathematik.univie.ac.at/e/index.php?event=mmee2024).
 - 💬 Gave an invited presentation at the [International Symposium on Dynamic Games and Applications](https://www.gerad.ca/colloques/isdg2024/).
 - 💬 Gave a presentation at the [International Conference on Social Dilemmas](https://socialdilemma.com/icsd2024/).
-- 📜 New paper: [Evolution of reciprocity with limited payoff memory](https://royalsocietypublishing.org/doi/10.1098/rspb.2023.2493) at Proceedings of Royal Society B.
+- 📜 New paper: [Evolution of reciprocity with limited payoff memory](https://royalsocietypublishing.org/doi/10.1098/rspb.2023.2493) at Proceedings of Royal Society B. -->
 
 <!-- - 📜 New pre-print: [Conditional cooperation
 with longer memory](https://arxiv.org/abs/2001.05911). -->
