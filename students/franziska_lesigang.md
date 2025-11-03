@@ -5,6 +5,9 @@ title: "Franziska Lesigang"
 
 <h1>Franziska Lesigang</h1>
 
+Franziska is a PhD student at the IT:U Linz, co-supervised by me. She is
+investigating repeated games with multiple players.
+
 Franziska visited and joined the *Group Dynamics of Social Behaviour* in August
 until September 2024 for an internship and was co-supervised by me and Dr. Christian Hilbe.
 
