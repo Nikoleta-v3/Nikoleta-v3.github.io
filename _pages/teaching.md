@@ -7,7 +7,7 @@ title: Teaching
 <h4> Students </h4>
 <hr>
 
-- [Franziska Lesigang](../students/franziska_lesigang.md) (MSc Student). *Thesis title:*  Nash equilibria in finite action games with conditional strategies.
+- [Franziska Lesigang](../students/franziska_lesigang.md) (PhD Student). *Thesis title:*  TBC.
 
 - [Cory Seelenfreund](../students/cory_seelenfreund.md) (New Rochelle High School). *Project title:* Human reciprocity with memory based strategies: An analysis using game theoretic models.
 
