@@ -7,7 +7,7 @@ title: Teaching
 <h4> Students </h4>
 <hr>
 
-- [Franziska Lesigang](../students/franziska_lesigang.md) (PhD Student). *Thesis title:*  TBC.
+- [Franziska Lesigang](../students/franziska_lesigang.md) (PhD Student (current); MSc Student (previous)). *Thesis title:*  TBC.
 
 - [Cory Seelenfreund](../students/cory_seelenfreund.md) (New Rochelle High School). *Project title:* Human reciprocity with memory based strategies: An analysis using game theoretic models.
 
@@ -61,7 +61,7 @@ and paper: [https://jose.theoj.org/papers/10.21105/jose.00078](https://jose.theo
   Cardiff University. Material: [https://vknight.org/rsd/](https://vknight.org/rsd/).
 
 
-<h4> Online Tutorial </h4>
+<!-- <h4> Online Tutorial </h4>
 <hr>
 
 - A collection of examples and tutorials for techniques
@@ -69,4 +69,4 @@ and paper: [https://jose.theoj.org/papers/10.21105/jose.00078](https://jose.theo
   - [Virtual Environment with Python on a cluster](https://github.com/DYNOSOBs/DYNOSOB-tutorials/blob/main/src/virtual-env-with-python-on-cluster.md)
   - [Scientific Writing with git](https://github.com/DYNOSOBs/DYNOSOB-scientific-writing-with-git)
   - [Tutorial on Latex]([src/latex.md](https://github.com/DYNOSOBs/DYNOSOB-tutorials/blob/main/src/latex.md))
-  - [Managing terminal configuration]([src/terminal_style.md](https://github.com/DYNOSOBs/DYNOSOB-tutorials/blob/main/src/terminal_style.md))
+  - [Managing terminal configuration]([src/terminal_style.md](https://github.com/DYNOSOBs/DYNOSOB-tutorials/blob/main/src/terminal_style.md)) -->
