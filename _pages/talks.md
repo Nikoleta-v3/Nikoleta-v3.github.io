@@ -12,10 +12,14 @@ permalink: /presentations/
 <h4> Invited Presentations </h4>
 <hr>
 
+- ​Reviving, reproducing, and revisiting Axelrod's second tournament.
+  School of Mathematical Sciences, Queensland University of Technology. 2025.
+  <a href="../presentations/QUT2025.pdf"><i class="fa fa-sliders"></i>
+
 
 - ​Teaching Unselfishness.
   [RHINO (APCTP/G-LAMP Workshop on the Roles of Heterogeneity in Nonequilibrium)](https://egai.cc). 2025.
-  <!-- <a href="../presentations/EGAI2025.pdf"><i class="fa fa-sliders"></i> -->
+  <a href="../presentations/RHINO2025.pdf"><i class="fa fa-sliders"></i>
 
 - ​Limited information and the effects on the evolution of cooperation.
   [EGAI (Evolutionary Game Theory and Artificial Intelligence Conference)](https://egai.cc). 2025.
