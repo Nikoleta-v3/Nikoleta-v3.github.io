@@ -38,6 +38,7 @@ Journal of Open Source Software</a>.
 ------------------------------------------------------------------------------
 
 🗞️ **Updates:**
+- 🗓️ I joined QUT as a Visiting Fellow: [Blog post]({% post_url 2025-12-11-visiting-QUT %}).
 - 📜 New paper: [Exact conditions for evolutionary stability in indirect reciprocity under noise](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013584).
 - 📜 New pre-print: [Reviving, reproducing, and revisiting Axelrod's second tournament](https://arxiv.org/abs/2510.15438).
 - 💬 Gave an invited presentation at the [RHINO](https://apctp.org/theme/d/html/activities/activities01_read-pop.php?id=2235&m_id=884).
