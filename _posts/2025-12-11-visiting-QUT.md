@@ -7,14 +7,14 @@ math: true
 categories: articles
 ---
 
-<div style="text-align: justify;">
-
-<p>
+<p style="text-align: justify;">
 Starting in November 2025, I became a Visiting Fellow at the Queensland University of Technology (QUT). 
 From 26 November, I spent two and a half weeks with the School of Mathematical Sciences, hosted by the 
 <a href="https://qutameg.wordpress.com">Applied Mathematical Ecology Group (AMEG)</a> and 
 <a href="https://www.mariakleshnina.com">Dr&nbsp;Maria Kleshnina</a>.
 </p>
+
+<div style="text-align: justify;">
 
 <h2>At the Applied Mathematical Ecology Group</h2>
 
@@ -106,3 +106,4 @@ fed kangaroos!
 </figure>
 
 </div>
+
