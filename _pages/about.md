@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 <h4>Academic Positions</h4>
-
 <hr>
+
 <p>
     <span> <b>Research Scientist</b> </span>
     <span style="float:right;">Jan. 2025-current</span>
@@ -16,7 +16,6 @@ permalink: /about/
 Mathematical Social Science Team, RIKEN Center for Interdisciplinary Theoretical and Mathematical Sciences (iTHEMS)
 
 
-<hr>
 <p>
     <span> <b>Research Scientist</b> </span>
     <span style="float:right;">Sept. 2025-current</span>
@@ -32,6 +31,18 @@ Discrete Event Simulation Research Team, RIKEN Center for Computational Science
 </p>
 
 Research Group Dynamics of Social Behavior, Max Planck Institute for Evolutionary Biology
+
+<h4>Research Stays</h4>
+<hr>
+
+<p>
+    <span> <b>Visiting Fellow</b> </span>
+    <span style="float:right;">Nov. 2025-Nov.2026</span>
+    <div class="clearix"></div>
+</p>
+
+School of Mathematical Sciences, Queensland University of Technology
+
 
 <h4>Skills </h4>
 <hr>
