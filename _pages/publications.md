@@ -8,6 +8,8 @@ permalink: /publications/
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+- Kyomen, S.; Ramirez M. A.; Glynatsi, N. E.; Rodríguez-Sánchez, G. T.; Azevedo-Lopes A. **[Insights from the ``Women in Evolutionary Biology Workshop'' on Gender Equality in Science](https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpaf255/8384175)**. *Evolution*, 2025.
+
 - Glynatsi, N. E.; Hilbe, C.; Yohsuke, M. **[Exact conditions for evolutionary stability in indirect reciprocity under noise](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013584)**. *PLOS Computational Biology*, 2025. <a href="../publications/Glynatsi2025.pdf" ><i class="fa fa-file-pdf-o"></i></a>
 
 - Lesigang, F.; Hilbe, C.; Glynatsi, N. E. **[Can I afford to remember less than you? Best responses in repeated additive games](https://www.sciencedirect.com/science/article/pii/S0165176525001375)**. *Economics Letters*, 2025. <a href="../publications/LesigangEcon2025.pdf" ><i class="fa fa-file-pdf-o"></i></a>
