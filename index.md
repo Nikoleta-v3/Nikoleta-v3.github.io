@@ -38,6 +38,8 @@ Journal of Open Source Software</a>.
 ------------------------------------------------------------------------------
 
 🗞️ **Updates:**
+- 📜 New paper: [Payoff equivalence and complete strategy spaces of direct reciprocity.](https://www.pnas.org/doi/10.1073/pnas.2518486123)
+- 💬 Gave a presentation at Cardiff University.
 - 📜 New paper: [Insights from the ``Women in Evolutionary Biology Workshop'' on Gender Equality in Science](https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpaf255/8384175).
 - 🗓️ I joined QUT as a Visiting Fellow: [Blog post]({% post_url 2025-12-11-visiting-QUT %}).
 - 📜 New paper: [Exact conditions for evolutionary stability in indirect reciprocity under noise](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013584).
