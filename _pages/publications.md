@@ -56,8 +56,8 @@ permalink: /publications/
 - Lesigang, F.; Hilbe, C.; Glynatsi, N. E. **Characterization of reactive Nash
   equilibria in repeated additive games**. *Manuscript in preparation*.
 
-- Kleshnina, M.; Staab, M.; Grosch, K.; Glynatsi, N. E. **The Limits of
-  Behavioural Flexibility in Unequal Repeated Social Dilemmas**. *Manuscript in
+- Kleshnina, M.; Staab, M.; Grosch, K.; Glynatsi, N. E. **The limits of
+  behavioural flexibility in unequal repeated social dilemmas**. *Manuscript in
   preparation*.
 
 

@@ -42,7 +42,7 @@ Journal of Open Source Software</a>.
 - 💬 Attended the [International Conference on Social Dilemmas 2026](https://sites.google.com/view/icsd2026). Wrote a blog post about it: [post 📝✨.](https://nikoleta-v3.github.io/ICSD/)
 - 💬 Gave an invited presentation at the [Workshop on Evolutionary Game Theory](https://www.nitmb.org/evolutionary-games-workshop), held at NITMB.
 - 🎓 [Franziska Lesigang](/students/franziska_lesigang.md) visited RIKEN-CCS as part of the [international internship program](https://www.r-ccs.riken.jp/en/about/careers/internship/).
-- 📜 New paper: [Payoff equivalence and complete strategy spaces of direct reciprocity](https://www.pnas.org/doi/10.1073/pnas.2518486123)
+- 📜 New paper: [Payoff equivalence and complete strategy spaces of direct reciprocity](https://www.pnas.org/doi/10.1073/pnas.2518486123).
 - 💬 Gave a presentation at Cardiff University.
 
 
