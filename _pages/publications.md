@@ -8,6 +8,8 @@ permalink: /publications/
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+- Knight, V. A.; Campbell, O.; Harper, M.; Gaffney, T. J.; Glynatsi, N. E. **Reviving, reproducing, and revisiting Axelrod's second tournament**. *Communications AI & Computing*. *In press*, 2026.
+
 - Laporte, P.; Hilbe, C.; Glynatsi, N. E.; Nowak M. A. **[Payoff equivalence and complete strategy spaces of direct reciprocity](https://www.pnas.org/doi/10.1073/pnas.2518486123)**. *Proceedings of the National Academy of Sciences*, 2026. <a href="../publications/Laporte2026PNAS.pdf" ><i class="fa fa-file-pdf-o"></i></a>
 
 - Kyomen, S.; Ramirez M. A.; Glynatsi, N. E.; Rodríguez-Sánchez, G. T.; Azevedo-Lopes A. **[Insights from the ``Women in Evolutionary Biology Workshop'' on Gender Equality in Science](https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpaf255/8384175)**. *Evolution*, 2025. <a href="../publications/Kyomen2025Evolution.pdf" ><i class="fa fa-file-pdf-o"></i></a>
@@ -44,10 +46,18 @@ permalink: /publications/
 
 ## In preparation
 
-- Knight, V. A.; Campbell, O.; Harper, M.; Gaffney, T. J.; Glynatsi, N. E. **Reviving, reproducing, and revisiting Axelrod's second tournament.** arXiv · [Preprint](https://arxiv.org/abs/2510.15438)
+- Pal, S.; Hilbe, C.; Glynatsi, N. E. **[The co-evolution of direct, indirect
+  and generalized reciprocity](https://arxiv.org/abs/2411.03488)**. *arXiv
+  preprint*.
 
-- Pal, S.; Hilbe, C.; Glynatsi, N. E. **The co-evolution of direct, indirect and generalized reciprocity.** arXiv · [Preprint](https://arxiv.org/abs/2411.03488)
+- Li, J.; Glynatsi, N. E.; Xia, H.; Hilbe, C. **Direct reciprocity with
+  inequality-based cooperation**. *Manuscript in preparation*.
 
-- Li, J.; Glynatsi, N. E.; Hilbe, C.; Xia, H. **Tolerance and exploitation of cumulative memory strategy in direct reciprocity.**
+- Lesigang, F.; Hilbe, C.; Glynatsi, N. E. **Characterization of reactive Nash
+  equilibria in repeated additive games**. *Manuscript in preparation*.
+
+- Kleshnina, M.; Staab, M.; Grosch, K.; Glynatsi, N. E. **The Limits of
+  Behavioural Flexibility in Unequal Repeated Social Dilemmas**. *Manuscript in
+  preparation*.
 
 
