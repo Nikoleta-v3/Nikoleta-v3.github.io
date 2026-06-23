@@ -12,6 +12,10 @@ permalink: /presentations/
 <h4> Invited Presentations </h4>
 <hr>
 
+- Rethinking Assumptions in Evolutionary Models of Direct Reciprocity. [Workshop
+  on Evolutionary Game Theory, National Institute for Theory and Mathematics in
+  Biology](https://www.nitmb.org/evolutionary-games-workshop). 2026.
+
 - ​Reviving, reproducing, and revisiting Axelrod's second tournament.
   School of Mathematical Sciences, Queensland University of Technology. 2025.
   <a href="../presentations/QUT2025.pdf"><i class="fa fa-sliders"></i>

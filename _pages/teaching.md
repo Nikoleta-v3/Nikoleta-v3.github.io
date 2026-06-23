@@ -7,12 +7,19 @@ title: Teaching
 <h4> Students </h4>
 <hr>
 
-- [Franziska Lesigang](../students/franziska_lesigang.md) (PhD Student (current); MSc Student (previous)). *Thesis title:*  TBC.
+- [Adam Kolakowski](../students/adam_kolakowski.md) (Summer Student, 2026).
+  *Summer Project (2026).*
 
-- [Cory Seelenfreund](../students/cory_seelenfreund.md) (New Rochelle High School). *Project title:* Human reciprocity with memory based strategies: An analysis using game theoretic models.
+- [Franziska Lesigang](../students/franziska_lesigang.md) (MSc Student, 2024–2025; PhD Student, 2025–present).  
+  *PhD thesis:* TBC.
 
-- [Vivien Kleinow](../students/vivien_kleinow.md) (MSc Student). *Thesis title:*  Mapping Computational Neuroscience: exploring topics and evolution through scientometrics.
-  - *Last known coordinates*:	PhD student at Hamburg University of Technology, Germany.
+- [Cory Seelenfreund](../students/cory_seelenfreund.md) (Summer Student, 2024–2025).
+  *Summer Projects (2024–2025).*  
+  - Currently an undergraduate student at the Massachusetts Institute of Technology.
+
+- [Vivien Kleinow](../students/vivien_kleinow.md) (MSc Student, 2023–2024).
+  *Master's thesis:* *Mapping Computational Neuroscience: Exploring Topics and Evolution through Scientometrics.*  
+  - Currently a PhD student at Hamburg University of Technology, Germany.
 
 <h4> Lectures & Online Lectures</h4>
 <hr>

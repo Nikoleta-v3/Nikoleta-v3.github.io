@@ -38,19 +38,25 @@ Journal of Open Source Software</a>.
 ------------------------------------------------------------------------------
 
 🗞️ **Updates:**
-- 📜 New paper: [Payoff equivalence and complete strategy spaces of direct reciprocity.](https://www.pnas.org/doi/10.1073/pnas.2518486123)
+
+- 💬 Attended the [International Conference on Social Dilemmas 2026](https://sites.google.com/view/icsd2026). Wrote a blog post about it: [post 📝✨.](https://nikoleta-v3.github.io/ICSD/)
+- 💬 Gave an invited presentation at the [Workshop on Evolutionary Game Theory](https://www.nitmb.org/evolutionary-games-workshop), held at NITMB.
+- 🎓 [Franziska Lesigang](/students/franziska_lesigang.md) visited RIKEN-CCS as part of the [international internship program](https://www.r-ccs.riken.jp/en/about/careers/internship/).
+- 📜 New paper: [Payoff equivalence and complete strategy spaces of direct reciprocity](https://www.pnas.org/doi/10.1073/pnas.2518486123)
 - 💬 Gave a presentation at Cardiff University.
-- 📜 New paper: [Insights from the ``Women in Evolutionary Biology Workshop'' on Gender Equality in Science](https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpaf255/8384175).
+
+
+<!-- - 📜 New paper: [Insights from the ``Women in Evolutionary Biology Workshop'' on Gender Equality in Science](https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpaf255/8384175).
 - 🗓️ I joined QUT as a Visiting Fellow: [Blog post]({% post_url 2025-12-11-visiting-QUT %}).
 - 📜 New paper: [Exact conditions for evolutionary stability in indirect reciprocity under noise](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013584).
 - 📜 New pre-print: [Reviving, reproducing, and revisiting Axelrod's second tournament](https://arxiv.org/abs/2510.15438).
-- 💬 Gave an invited presentation at the [RHINO](https://apctp.org/theme/d/html/activities/activities01_read-pop.php?id=2235&m_id=884).
-- 💬 Gave a lecture at a summer school on game theory: [https://game-theory-school.kse.ua](https://game-theory-school.kse.ua)
+- 💬 Gave an invited presentation at the [RHINO](https://apctp.org/theme/d/html/activities/activities01_read-pop.php?id=2235&m_id=884). -->
+<!-- - 💬 Gave a lecture at a summer school on game theory: [https://game-theory-school.kse.ua](https://game-theory-school.kse.ua)
 - 💬 Gave an invited presentation at the [EGAI](https://egai.cc).
 - 💬 Gave an invited tutorial on Game Theory with Python at the [EGAI](https://egai.cc).
 - 📜 New paper: [Can I afford to remember less than you? Best responses in repeated additive games](https://www.sciencedirect.com/science/article/pii/S0165176525001375) at Economic Letters.
 - 💬 Gave an invited presentation at the [LEG Seminar](https://thelegproject.wordpress.com/leg-seminar/).
-- 💬 Gave an invited presentation at the [Workshop on Computational Social Science: Methods and Applications](https://ccss.kobe-u.ac.jp/event/seminar_all/2024/202412261300.html).
+- 💬 Gave an invited presentation at the [Workshop on Computational Social Science: Methods and Applications](https://ccss.kobe-u.ac.jp/event/seminar_all/2024/202412261300.html). -->
 
 <!-- - 📜 New paper: [Properties of winning Iterated Prisoner’s Dilemma strategies](https://doi.org/10.1371/journal.pcbi.1012644) at PLOS Computational Biology.
 - 📜 New pre-print: [The co-evolution of direct, indirect and generalized reciprocity](https://arxiv.org/abs/2411.03488).
