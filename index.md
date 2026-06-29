@@ -39,6 +39,8 @@ Journal of Open Source Software</a>.
 
 🗞️ **Updates:**
 
+- 🎓 [Adam Kolakowski](/students/adam_kolakowski.md) started his summer research project.
+- 📜 New preprint [Characterization of reactive Nash equilibria in repeated additive games](https://arxiv.org/abs/2606.27653)
 - 💬 Attended the [International Conference on Social Dilemmas 2026](https://sites.google.com/view/icsd2026). Wrote a blog post about it: [post 📝✨.](https://nikoleta-v3.github.io/ICSD/)
 - 💬 Gave an invited presentation at the [Workshop on Evolutionary Game Theory](https://www.nitmb.org/evolutionary-games-workshop), held at NITMB.
 - 🎓 [Franziska Lesigang](/students/franziska_lesigang.md) visited RIKEN-CCS as part of the [international internship program](https://www.r-ccs.riken.jp/en/about/careers/internship/).

@@ -50,11 +50,12 @@ permalink: /publications/
   and generalized reciprocity](https://arxiv.org/abs/2411.03488)**. *arXiv
   preprint*.
 
+- Lesigang, F.; Hilbe, C.; Glynatsi, N. E. **[Characterization of reactive Nash
+  equilibria in repeated additive games](https://arxiv.org/abs/2606.27653)**. *arXiv
+  preprint*.
+
 - Li, J.; Glynatsi, N. E.; Xia, H.; Hilbe, C. **Direct reciprocity with
   inequality-based cooperation**. *Manuscript in preparation*.
-
-- Lesigang, F.; Hilbe, C.; Glynatsi, N. E. **Characterization of reactive Nash
-  equilibria in repeated additive games**. *Manuscript in preparation*.
 
 - Kleshnina, M.; Staab, M.; Grosch, K.; Glynatsi, N. E. **The limits of
   behavioural flexibility in unequal repeated social dilemmas**. *Manuscript in
