@@ -12,62 +12,68 @@ permalink: /presentations/
 <h4> Invited Presentations </h4>
 <hr>
 
-- Rethinking Assumptions in Evolutionary Models of Direct Reciprocity. [Workshop
-  on Evolutionary Game Theory, National Institute for Theory and Mathematics in
-  Biology](https://www.nitmb.org/evolutionary-games-workshop). 2026.
+- Computer Tournaments in Repeated Games: Past, Present, and Future.
+  Ubiquitous Trustworthy Intelligence International Academic Conference. 2026.
+  <a href="../presentations/UTI2026.pdf"><i class="fa fa-sliders"></i></a>
+
+- Direct reciprocity under constraints: information and evolutionary dynamics. [14th European Conference on Mathematical & Theoretical Biology](https://ecmtb2026.org). 2026.
+  <a href="../presentations/ECMTB2026.pdf"><i class="fa fa-sliders"></i></a>
+
+- Rethinking Assumptions in Evolutionary Models of Direct Reciprocity. [Workshop on Evolutionary Game Theory, National Institute for Theory and Mathematics in Biology](https://www.nitmb.org/evolutionary-games-workshop). 2026.
+  <a href="../presentations/NITMB2026.pdf"><i class="fa fa-sliders"></i></a>
 
 - ​Reviving, reproducing, and revisiting Axelrod's second tournament.
   School of Mathematical Sciences, Queensland University of Technology. 2025.
-  <a href="../presentations/QUT2025.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/QUT2025.pdf"><i class="fa fa-sliders"></i></a>
 
 - ​Teaching Unselfishness.
   [RHINO (APCTP/G-LAMP Workshop on the Roles of Heterogeneity in Nonequilibrium)](https://apctp.org/theme/d/html/activities/activities01_read-pop.php?id=2235&m_id=884). 2025.
-  <a href="../presentations/RHINO2025.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/RHINO2025.pdf"><i class="fa fa-sliders"></i></a>
 
 - ​Limited information and the effects on the evolution of cooperation.
   [EGAI (Evolutionary Game Theory and Artificial Intelligence Conference)](https://egai.cc). 2025.
-  <a href="../presentations/EGAI2025.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/EGAI2025.pdf"><i class="fa fa-sliders"></i></a>
 
 - ​Game theory and Python: A tutorial on open-source tools for repeated games
   [EGAI (Evolutionary Game Theory and Artificial Intelligence Conference)](https://egai.cc). 2025.
-  <a href="../presentations/EGAITutorial2025.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/EGAITutorial2025.pdf"><i class="fa fa-sliders"></i></a>
 
 - Best responses in repeated games. Reactive strategies with longer memory.​
   [LEG Seminar](https://thelegproject.wordpress.com/leg-seminar/). 2025.
-  <a href="../presentations/LEG2025.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/LEG2025.pdf"><i class="fa fa-sliders"></i></a>
 
 - Conditional cooperation with longer memory​.
   [Workshop on Computational Social Science: Methods and Applications](https://ccss.kobe-u.ac.jp/event/seminar_all/2024/202412261300.html). 2024.
-  <a href="../presentations/AMETHYST.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/AMETHYST.pdf"><i class="fa fa-sliders"></i></a>
 
 - Limited information and the effects on the evolution of cooperation​.
   [AMETHYST: gAME THeorY in complex SysTems](https://amethystsatellite.weebly.com). 2024.
-  <a href="../presentations/AMETHYST.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/AMETHYST.pdf"><i class="fa fa-sliders"></i></a> 
 
 - Learning in Games​.
   [International Symposium on Dynamic Games and Applications](https://www.gerad.ca/colloques/isdg2024/). 2024.
-  <a href="../presentations/LearningInGames.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/LearningInGames.pdf"><i class="fa fa-sliders"></i></a>
 
 - Exploring cognitive constraints in models of direct reciprocity.
   Virtual Workshop on Evolutionary Game Theory. 2023.
-  <a href="../presentations/EvolGameTheory.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/EvolGameTheory.pdf"><i class="fa fa-sliders"></i></a>
 
 - A computational approach to cooperation. Institute For Advanced Study in Toulouse. 2023.
-  <a href="../presentations/Toulouse.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/Toulouse.pdf"><i class="fa fa-sliders"></i></a>
 
 - A bibliometric study of a research field.
   [PyData UK Meetup](https://www.youtube.com/watch?v=r_0hLCnbyXM). 2020.
-    <a href="../presentations/PyDataUK.pdf"><i class="fa fa-sliders"></i>
+    <a href="../presentations/PyDataUK.pdf"><i class="fa fa-sliders"></i></a>
 
 - Understanding responses to environments for the Prisoner’s Dilemma.
   Max Planck Institute of Evolutionary Biology. 2020.
-  <a href="../presentations/MaxPlanck.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/MaxPlanck.pdf"><i class="fa fa-sliders"></i></a>
 
 - The Fallacy of Meritocracy. [PyCon Balkan](https://conference.pyconbalkan.com). 2019.
-  <a href="../presentations/PyConBalkan.pdf"><i class="fa fa-sliders"></i>
+  <a href="../presentations/PyConBalkan.pdf"><i class="fa fa-sliders"></i></a>
 
 - How does a smile make a difference? [PyCon UK](https://www.python.org/events/python-events/676/). 2018.
-  <a href="../presentations/PyConUK/index.html"><i class="fa fa-sliders"></i>
+  <a href="../presentations/PyConUK/index.html"><i class="fa fa-sliders"></i></a>
 
 
 <!-- ### Presentations -->
