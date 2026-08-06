@@ -29,25 +29,28 @@ topic editor for the <a href="https://joss.theoj.org">
 Journal of Open Source Software</a>.
 </p>
 
-<div class="background-lane">
+<!-- <div class="background-lane">
   <div class="lane-content">
   </div>
-</div>
+</div> -->
 
 
 ------------------------------------------------------------------------------
 
 🗞️ **Updates:**
 
+- 💬 Gave an invited online presentation at the Ubiquitous Trustworthy Intelligence International Academic Conference.
+- 💬 Gave an invited presentation at the [14th European Conference on Mathematical & Theoretical Biology](https://ecmtb2026.org).
+- 🎓 Gave a course on game theory.
 - 🎓 [Adam Kolakowski](/students/adam_kolakowski.md) started his summer research project.
 - 📜 New preprint [Characterization of reactive Nash equilibria in repeated additive games](https://arxiv.org/abs/2606.27653)
 - 💬 Attended the [International Conference on Social Dilemmas 2026](https://sites.google.com/view/icsd2026). Wrote a blog post about it: [post 📝✨.](https://nikoleta-v3.github.io/ICSD/)
 - 💬 Gave an invited presentation at the [Workshop on Evolutionary Game Theory](https://www.nitmb.org/evolutionary-games-workshop), held at NITMB.
 - 🎓 [Franziska Lesigang](/students/franziska_lesigang.md) visited RIKEN-CCS as part of the [international internship program](https://www.r-ccs.riken.jp/en/about/careers/internship/).
 - 📜 New paper: [Payoff equivalence and complete strategy spaces of direct reciprocity](https://www.pnas.org/doi/10.1073/pnas.2518486123).
-- 💬 Gave a presentation at Cardiff University.
 
 
+<!-- - 💬 Gave a presentation at Cardiff University. -->
 <!-- - 📜 New paper: [Insights from the ``Women in Evolutionary Biology Workshop'' on Gender Equality in Science](https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpaf255/8384175).
 - 🗓️ I joined QUT as a Visiting Fellow: [Blog post]({% post_url 2025-12-11-visiting-QUT %}).
 - 📜 New paper: [Exact conditions for evolutionary stability in indirect reciprocity under noise](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013584).
